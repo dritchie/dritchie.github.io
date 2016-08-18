@@ -1,1 +1,0 @@
-# dritchie.github.io
