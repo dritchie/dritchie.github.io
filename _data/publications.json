@@ -1,32 +1,14 @@
 [
 
 {
-	"id": "hmc",
-	"title": "Generating Design Suggestions under Tight Constraints with Gradient-based Probabilistic Programming",
-	"authors": ["Daniel Ritchie", "Sharon Lin", "Noah D. Goodman", "Pat Hanrahan"],
-	"venue": "Eurographics 2015",
-	"year": "2015",
-	"date": "2015-05-04",
-	"award": "Honorable Mention - Best Paper",
+	"id": "ngpm",
+	"title": "Neurally-Guided Procedural Models: Amortized Inference for Procedural Graphics Programs using Neural Networks",
+	"authors": ["Daniel Ritchie", "Anna Thomas", "Andreas Stuhlmüller", "Noah D. Goodman"],
+	"venue": "NIPS 2016 (to appear)",
+	"year": "2016",
+	"date": "2016-12-05",
 	"links" : [
-		{"type": "pdf"},
-		{"type": "slides"},
-		{"type": "external", "name": "Code", "target": "https://github.com/dritchie/graphics-hmc"}
-	]
-},
-
-{
-	"id": "sosmc",
-	"title": "Controlling Procedural Modeling Programs with Stochastically-Ordered Sequential Monte Carlo",
-	"authors": ["Daniel Ritchie", "Ben Mildenhall", "Noah D. Goodman", "Pat Hanrahan"],
-	"venue": "SIGGRAPH 2015",
-	"year": "2015",
-	"date": "2015-08-09",
-	"links" : [
-		{"type": "pdf"},
-		{"type": "slides"},
-		{"type": "external", "name": "code", "target": "https://github.com/dritchie/procmod"},
-		{"type": "external", "name": "demo", "target": "http://dritchie.github.io/web-procmod"}
+		{"type": "link", "name": "old arXiv preprint", "target": "http://arxiv.org/abs/1603.06143"}
 	]
 },
 
@@ -40,7 +22,133 @@
 	"links" : [
 		{"type": "pdf"},
 		{"type": "slides"},
-		{"type": "external", "name": "Code", "target": "https://github.com/probmods/webppl/blob/dev/src/inference/incrementalmh.js"}
+		{"type": "link", "name": "code", "target": "https://github.com/probmods/webppl/blob/dev/src/inference/incrementalmh.js"}
+	]
+},
+
+{
+	"id": "sosmc",
+	"title": "Controlling Procedural Modeling Programs with Stochastically-Ordered Sequential Monte Carlo",
+	"authors": ["Daniel Ritchie", "Ben Mildenhall", "Noah D. Goodman", "Pat Hanrahan"],
+	"venue": "SIGGRAPH 2015",
+	"year": "2015",
+	"date": "2015-08-09",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "slides"},
+		{"type": "link", "name": "code", "target": "https://github.com/dritchie/procmod"},
+		{"type": "link", "name": "demo", "target": "http://dritchie.github.io/web-procmod"}
+	]
+},
+
+{
+	"id": "hmc",
+	"title": "Generating Design Suggestions under Tight Constraints with Gradient-based Probabilistic Programming",
+	"authors": ["Daniel Ritchie", "Sharon Lin", "Noah D. Goodman", "Pat Hanrahan"],
+	"venue": "Eurographics 2015",
+	"year": "2015",
+	"date": "2015-05-04",
+	"award": "Honorable Mention - Best Paper",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "slides"},
+		{"type": "link", "name": "code", "target": "https://github.com/dritchie/graphics-hmc"}
+	]
+},
+
+{
+	"id": "qs",
+	"title": "Quicksand: A Lightweight Embedding of Probabilistic Programming for Procedural Modeling and Design",
+	"authors": ["Daniel Ritchie"],
+	"venue": "3rd NIPS Workshop on Probabilistic Programming",
+	"year": "2014",
+	"date": "2014-12-13",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "slides"},
+		{"type": "link", "name": "project page", "target": "http://dritchie.github.io/quicksand"},
+		{"type": "link", "name": "talk", "target": "https://www.youtube.com/watch?v=B7b9NEeRIFI&noredirect=1"}
+	]
+},
+
+{
+	"id": "exotypes",
+	"title": "First-class Runtime Generation of High-performance Types using Exotypes",
+	"authors": ["Zach Devito", "Daniel Ritchie", "Matthew Fisher", "Pat Hanrahan"],
+	"venue": "PLDI 2014",
+	"year": "2014",
+	"date": "2014-06-09",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "project page", "target": "http://terralang.org"}
+	]
+},
+
+{
+	"id": "patterncolor",
+	"title": "Probabilistic Color-by-Numbers: Suggesting Pattern Colorizations Using Factor Graphs",
+	"authors": ["Sharon Lin", "Daniel Ritchie", "Matthew Fisher", "Pat Hanrahan"],
+	"venue": "SIGGRAPH 2013",
+	"year": "2013",
+	"date": "2013-07-21",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "project page", "target": "http://graphics.stanford.edu/projects/patternColoring"}
+	]
+},
+
+{
+	"id": "scenesynth",
+	"title": "Example-based Synthesis of 3D Object Arrangements",
+	"authors": ["Matthew Fisher", "Daniel Ritchie", "Manolis Savva", "Thomas Funkhouser", "Pat Hanrahan"],
+	"venue": "SIGGRAPH Asia 2012",
+	"year": "2012",
+	"date": "2012-11-30",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "project page", "target": "http://graphics.stanford.edu/projects/scenesynth"}
+	]
+},
+
+{
+	"id": "dtour",
+	"title": "d.tour: Style-based Exploration of Design Example Galleries",
+	"authors": ["Daniel Ritchie", "Ankita Arvind Kejriwal", "Scott R. Klemmer"],
+	"venue": "UIST 2011",
+	"year": "2011",
+	"date": "2011-10-16",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "video", "target": "misc_assets/dtour-UIST2011.mov"}
+	]
+},
+
+{
+	"id": "dlr",
+	"title": "Dynamic Local Remeshing for Elastoplastic Simulation",
+	"authors": ["Martin Wicke", "Daniel Ritchie", "Bryan M. Klingner", "Sebastian Burke", "Jonathan R. Shewchuk", "James F. O'Brien"],
+	"venue": "SIGGRAPH 2010",
+	"year": "2010",
+	"date": "2010-07-25",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "video 1", "target": "http://graphics.cs.berkeley.edu/papers/Wicke-DLR-2010-07/main-video-final.mov"}
+		{"type": "link", "name": "video 2", "target": "http://graphics.cs.berkeley.edu/papers/Wicke-DLR-2010-07/extra-fractures-final.mov"}
+		{"type": "link", "name": "project page", "target": "http://graphics.cs.berkeley.edu/papers/Wicke-DLR-2010-07"}
+	]
+},
+
+{
+	"id": "isn",
+	"title": "Interactive Simulation of Surgical Needle Insertion and Steering",
+	"authors": ["Nuttapong Chentanez", "Ron Alterovitz", "Daniel Ritchie", "Lita Cho", "Kris K. Hauser", "Ken Goldberg", "Jonathan R. Shewchuk", "James F. O'Brien"],
+	"venue": "SIGGRAPH 2009",
+	"year": "2009",
+	"date": "2009-08-04",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "video 1", "target": "http://graphics.cs.berkeley.edu/papers/Chentanez-ISN-2009-08/Chentanez2009-ISN-lowres.mov"}
+		{"type": "link", "name": "project page", "target": "http://graphics.cs.berkeley.edu/papers/Chentanez-ISN-2009-08"}
 	]
 }
 
