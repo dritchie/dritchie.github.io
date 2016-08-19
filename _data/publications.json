@@ -132,8 +132,8 @@
 	"date": "2010-07-25",
 	"links" : [
 		{"type": "pdf"},
-		{"type": "link", "name": "video 1", "target": "http://graphics.cs.berkeley.edu/papers/Wicke-DLR-2010-07/main-video-final.mov"}
-		{"type": "link", "name": "video 2", "target": "http://graphics.cs.berkeley.edu/papers/Wicke-DLR-2010-07/extra-fractures-final.mov"}
+		{"type": "link", "name": "video 1", "target": "http://graphics.cs.berkeley.edu/papers/Wicke-DLR-2010-07/main-video-final.mov"},
+		{"type": "link", "name": "video 2", "target": "http://graphics.cs.berkeley.edu/papers/Wicke-DLR-2010-07/extra-fractures-final.mov"},
 		{"type": "link", "name": "project page", "target": "http://graphics.cs.berkeley.edu/papers/Wicke-DLR-2010-07"}
 	]
 },
@@ -147,7 +147,7 @@
 	"date": "2009-08-04",
 	"links" : [
 		{"type": "pdf"},
-		{"type": "link", "name": "video 1", "target": "http://graphics.cs.berkeley.edu/papers/Chentanez-ISN-2009-08/Chentanez2009-ISN-lowres.mov"}
+		{"type": "link", "name": "video 1", "target": "http://graphics.cs.berkeley.edu/papers/Chentanez-ISN-2009-08/Chentanez2009-ISN-lowres.mov"},
 		{"type": "link", "name": "project page", "target": "http://graphics.cs.berkeley.edu/papers/Chentanez-ISN-2009-08"}
 	]
 }
