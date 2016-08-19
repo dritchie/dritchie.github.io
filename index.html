@@ -1,1 +1,22 @@
-Hello World
+---
+layout: none
+title: Daniel Ritchie
+---
+
+<!DOCTYPE html>
+<html>
+
+	<body>
+
+		{% assign sorted_pubs = site.data.publications | sort: 'date' | reverse %}
+		{% for pub in sorted_pubs %}
+			<div class='publication'>
+				<p class='title'>{{ pub.title }}</p>
+				<p class='authors'>{{ pub.authors | array_to_sentence_string }}</p>
+				<p class='venue'>{{ pub.venue }}</p>
+			</div>
+		{% endfor %}
+
+	</body>
+
+</html>

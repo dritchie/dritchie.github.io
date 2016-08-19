@@ -1,0 +1,47 @@
+[
+
+{
+	"id": "hmc",
+	"title": "Generating Design Suggestions under Tight Constraints with Gradient-based Probabilistic Programming",
+	"authors": ["Daniel Ritchie", "Sharon Lin", "Noah D. Goodman", "Pat Hanrahan"],
+	"venue": "Eurographics 2015",
+	"year": "2015",
+	"date": "2015-05-04",
+	"award": "Honorable Mention - Best Paper",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "slides"},
+		{"type": "external", "name": "Code", "target": "https://github.com/dritchie/graphics-hmc"}
+	]
+},
+
+{
+	"id": "sosmc",
+	"title": "Controlling Procedural Modeling Programs with Stochastically-Ordered Sequential Monte Carlo",
+	"authors": ["Daniel Ritchie", "Ben Mildenhall", "Noah D. Goodman", "Pat Hanrahan"],
+	"venue": "SIGGRAPH 2015",
+	"year": "2015",
+	"date": "2015-08-09",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "slides"},
+		{"type": "external", "name": "code", "target": "https://github.com/dritchie/procmod"},
+		{"type": "external", "name": "demo", "target": "http://dritchie.github.io/web-procmod"}
+	]
+},
+
+{
+	"id": "c3",
+	"title": "C3: Lightweight Incrementalized MCMC for Probabilistic Programs using Continuations and Callsite Caching",
+	"authors": ["Daniel Ritchie", "Andreas Stuhlmüller", "Noah D. Goodman"],
+	"venue": "AISTATS 2016",
+	"year": "2016",
+	"date": "2016-05-09",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "slides"},
+		{"type": "external", "name": "Code", "target": "https://github.com/probmods/webppl/blob/dev/src/inference/incrementalmh.js"}
+	]
+}
+
+]
