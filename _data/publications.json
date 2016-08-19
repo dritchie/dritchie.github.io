@@ -74,7 +74,7 @@
 {
 	"id": "exotypes",
 	"title": "First-class Runtime Generation of High-performance Types using Exotypes",
-	"authors": ["Zach Devito", "Daniel Ritchie", "Matthew Fisher", "Pat Hanrahan"],
+	"authors": ["Zachary Devito", "Daniel Ritchie", "Matthew Fisher", "Pat Hanrahan"],
 	"venue": "PLDI 2014",
 	"year": "2014",
 	"date": "2014-06-09",
@@ -113,13 +113,13 @@
 {
 	"id": "dtour",
 	"title": "d.tour: Style-based Exploration of Design Example Galleries",
-	"authors": ["Daniel Ritchie", "Ankita Arvind Kejriwal", "Scott R. Klemmer"],
+	"authors": ["Daniel Ritchie", "Ankita Kejriwal", "Scott R. Klemmer"],
 	"venue": "UIST 2011",
 	"year": "2011",
 	"date": "2011-10-16",
 	"links" : [
 		{"type": "pdf"},
-		{"type": "link", "name": "video", "target": "misc_assets/dtour-UIST2011.mov"}
+		{"type": "link", "name": "video", "target": "https://www.youtube.com/watch?v=g4ggoccLOyI"}
 	]
 },
 
@@ -141,7 +141,7 @@
 {
 	"id": "isn",
 	"title": "Interactive Simulation of Surgical Needle Insertion and Steering",
-	"authors": ["Nuttapong Chentanez", "Ron Alterovitz", "Daniel Ritchie", "Lita Cho", "Kris K. Hauser", "Ken Goldberg", "Jonathan R. Shewchuk", "James F. O'Brien"],
+	"authors": ["Nuttapong Chentanez", "Ron Alterovitz", "Daniel Ritchie", "Lita Cho", "Kris Hauser", "Ken Goldberg", "Jonathan R. Shewchuk", "James F. O'Brien"],
 	"venue": "SIGGRAPH 2009",
 	"year": "2009",
 	"date": "2009-08-04",

@@ -9,11 +9,55 @@ title: Daniel Ritchie
 	<body>
 
 		{% assign sorted_pubs = site.data.publications | sort: 'date' | reverse %}
+
 		{% for pub in sorted_pubs %}
 			<div class='publication'>
+
 				<p class='title'>{{ pub.title }}</p>
-				<p class='authors'>{{ pub.authors | array_to_sentence_string }}</p>
+
+				<p class='authors'>
+					{% for author in pub.authors %}
+						{% if foorloop.last %}
+							and 
+						{% endif %}
+						{% if site.data.people[author] %}
+							<a class='pubauthor' target='_blank' href='{{ site.data.people[author] }}'>
+								{{ author }}
+							</a>
+						{% else %}
+							{{ author }}
+						{% endif %}
+						{% if foorloop.last == false %}
+							, 
+						{% endif %}
+					{% endfor %}
+				</p>
+
+
 				<p class='venue'>{{ pub.venue }}</p>
+
+				{% for link in pub.links %}
+					{% if forloop.first == false %} | {% endif %}
+
+					{% capture lname %}
+						{% if link.type == 'link' %}
+							{{ link.name }}
+						{% else %}
+							{{ link.type }}
+						{% endif %}
+					{% endcapture %}
+
+					{% capture ltarget %}
+						{% if link.type == 'link' %}
+							{{ link.target }}
+						{% else %}
+							{{ link.type }}/{{ pub.id }}.{{ site.data.extensions[link.type] }}
+						{% endif %}
+					{% endcapture %}
+
+					<a class='publink' target='_blank' href='{{ ltarget }}'>{{ lname }}</a>
+				{% endfor %}
+
 			</div>
 		{% endfor %}
 
