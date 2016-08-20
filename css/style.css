@@ -1,0 +1,16 @@
+.pub {
+	padding-bottom: 8px;
+}
+
+.pubtextsection {
+	margin-left: -8px;
+	padding-left: 0px;
+}
+
+.pubtitle {
+	font-weight: bold;
+}
+
+.pubvenue {
+	font-style: italic;
+}
