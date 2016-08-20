@@ -1,40 +1,64 @@
 ---
-layout: none
-title: Daniel Ritchie
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
+<div class='container' id='content'>
 
-	<body>
+	{% assign sorted_pubs = site.data.publications | sort: 'date' | reverse %}
 
-		{% assign sorted_pubs = site.data.publications | sort: 'date' | reverse %}
+	{% for pub in sorted_pubs %}
 
-		{% for pub in sorted_pubs %}
-			<div class='publication'>
+		<div class='pub row'>
 
-				<p class='title'>{{ pub.title }}</p>
+			{% assign linktypes = pub.links | map: 'type' | join ' ' %}
+			{% capture pdflink %}
+				{% if linktypes contains 'pdf' %}
+					{% assign pdflink = (pub.links | where: 'type','pdf')[0] %}
+					{% if pdflink.target %}
+						{{ pdflink.target }}
+					{% else %}
+						pdf/{{ pub.id }}.pdf
+					{% endif %}
+				{% endif %}
+			{% endcapture %}
 
-				<p class='authors'>
+			<div class='pubimagesection'>
+				{% capture imagehtml %}
+					<img class='pubimage' 'img' 'img-responsive' src='img/pubthumbs/{{ pub.id }}.png' width='250'/>
+				{% endcapture %}
+
+				{% if linktypes contains 'pdf' %}
+					<a target='_blank' href='{{ pdflink }}'>{{ imagehtml }}</a>
+				{% else %}
+					{{ imagehtml }}
+				{% endif %}
+			</div>
+
+			<div class='pubtextsection'>
+
+				<div class='pubtitle'>
+					{% if linktypes contains 'pdf' %}
+						<a target='_blank' href='{{ pdflink }}'>{{ pub.title }}</a>
+					{% else %}
+						{{ pub.title }}
+					{% endif %}
+				</div>
+
+				<div class='pubauthors'>
 					{% for author in pub.authors %}
-						{% if foorloop.last %}
-							and 
-						{% endif %}
+						{% if forloop.last %} and {% endif %}
 						{% if site.data.people[author] %}
 							<a class='pubauthor' target='_blank' href='{{ site.data.people[author] }}'>
-								{{ author }}
+								{{ author }}{% if forloop.last == false %}, {% endif %}
 							</a>
 						{% else %}
-							{{ author }}
-						{% endif %}
-						{% if foorloop.last == false %}
-							, 
+							{{ author }}{% if forloop.last == false %}, {% endif %}
 						{% endif %}
 					{% endfor %}
-				</p>
+				</div>
 
 
-				<p class='venue'>{{ pub.venue }}</p>
+				<div class='pubvenue'>{{ pub.venue }}</div>
 
 				{% for link in pub.links %}
 					{% if forloop.first == false %} | {% endif %}
@@ -51,16 +75,20 @@ title: Daniel Ritchie
 						{% if link.type == 'link' %}
 							{{ link.target }}
 						{% else %}
-							{{ link.type }}/{{ pub.id }}.{{ site.data.extensions[link.type] }}
+							{{ link.type }}/{% if link.target %}{{ link.target }}{% else %}{{ pub.id }}.{{ site.data.extensions[link.type] }}{% endif %}
 						{% endif %}
 					{% endcapture %}
 
 					<a class='publink' target='_blank' href='{{ ltarget }}'>{{ lname }}</a>
 				{% endfor %}
 
+				{% if pub.award %}
+					<div class='pubaward'>{{ pub.award }}</div>
+				{% endif %}
+
 			</div>
-		{% endfor %}
 
-	</body>
+		</div>
+	{% endfor %}
 
-</html>
+</div>
