@@ -5,7 +5,29 @@
 
 	<body>
 
-		{{ content }}
+		<div id="mainnav" class="navbar navbar-inverse navbar-static-top" role="navigation">
+	        <div class="container">
+				<div class="navbar-brand">
+					<a href=".">Daniel Ritchie</a>
+				</div>
+	        </div>     
+	    </div>
+
+	    <div class='container' id='content'>
+
+	    	<div class='row'>
+
+	    		<div class='col-md-3 sidebar'>
+	    			{% include sidebar.html %}
+	    		</div>
+
+	    		<div class='col-md-9 maincontent'>
+					{{ content }}
+				</div>
+
+			</div>
+
+		</div>
 
 		{% include scripts.html %}
 	</body>

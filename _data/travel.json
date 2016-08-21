@@ -1,0 +1,28 @@
+{
+	"monthnames": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+
+	"items": [
+
+		{
+			"startdate": "2016-07-24",
+			"enddate": "2016-07-29",
+			"event": "SIGGRAPH",
+			"location": "Anaheim, CA"
+		},
+
+		{
+			"startdate": "2016-07-30",
+			"enddate": "2016-08-05",
+			"event": "PPAML Summer School",
+			"location": "Portland, OR"
+		},
+
+		{
+			"startdate": "2016-12-03",
+			"enddate": "2016-12-11",
+			"event": "NIPS",
+			"location": "Barcelona, ES"
+		},
+
+	]
+}
