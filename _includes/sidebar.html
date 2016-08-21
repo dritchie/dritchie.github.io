@@ -4,9 +4,9 @@
 
 <div class='sidebaritem' id='affiliations'>
 	<div class='sidebarheader'>Affiliations</div>
-	<div><a href='http://stanford.edu'>Stanford University</a></div>
-	<div><a href='http://stanford.edu'>Computer Science Department</a></div>
-	<div><a href='http://graphicsstanford.edu'>Graphics Lab</a> | <a href='http://cocolab.stanford.edu'>CoCoLab</a></div>
+	<div><a target='_blank' href='http://stanford.edu'>Stanford University</a></div>
+	<div><a target='_blank' href='http://stanford.edu'>Computer Science Department</a></div>
+	<div><a target='_blank' href='http://graphicsstanford.edu'>Graphics Lab</a> | <a href='http://cocolab.stanford.edu'>CoCoLab</a></div>
 </div>
 
 <div class='sidebaritem' id='contactinfo'>
@@ -19,12 +19,22 @@
 		       width=32px style='vertical-align:middle'>
 		</a>
 		&nbsp;
-		<a href='https://github.com/dritchie' style='text-decoration:none'>
+		<a target='_blank' href='https://github.com/dritchie' style='text-decoration:none'>
 		  <img src='img/icons/github.svg' type='image/svg+xml'
 		       width=36px style='vertical-align:middle'>
 		</a>
 		&nbsp;
-		<a href='https://soundcloud.com/daniel-ritchie-2' style='text-decoration:none'>
+		<a target='_blank' href='misc/cv.pdf' style='text-decoration:none'>
+		  <img src='img/icons/cv.png'
+		       width=32px style='vertical-align:middle'>
+		</a>
+		&nbsp;
+		<a target='_blank' href='https://www.linkedin.com/in/daniel-ritchie-266127109' style='text-decoration:none'>
+		  <img src='img/icons/linkedin.png'
+		       width=36px style='vertical-align:middle'>
+		</a>
+		&nbsp;
+		<a target='_blank' href='https://soundcloud.com/daniel-ritchie-2' style='text-decoration:none'>
 		  <img src='img/icons/soundcloud.png'
 		       width=32px style='vertical-align:middle'>
 		</a>
@@ -39,25 +49,31 @@
 		{{ toks[0] }}
 	{% endcapture %}
 
+	{% assign sortedtravelitems = site.data.travel.items | sort: 'startdate' %}
+
 	{% for travitem in site.data.travel.items %}
 
 		{% capture datestring %}
 			{% assign startdateparts = travitem.startdate | split: '-' %}
 			{% assign startmonthi = startdateparts[1] | minus: 1 %}
-			{% assign startmonth = site.data.travel.monthnames[startmonthi] %}
+			{% assign startmonth = site.data.date.monthnames_short[startmonthi] %}
 			{% assign startday = startdateparts[2] %}
 			{% assign enddateparts = travitem.enddate | split: '-' %}
 			{% assign endmonthi = enddateparts[1] | minus: 1 %}
-			{% assign endmonth = site.data.travel.monthnames[endmonthi] %}
+			{% assign endmonth = site.data.date.monthnames_short[endmonthi] %}
 			{% assign endday = enddateparts[2] %}
 
 			{% if travitem.startdate == travitem.enddate %}
-				{{ startmonth }} {{ startday }}
+				{{ startday }} {{ startmonth }}
+			{% elsif startmonth == endmonth %}
+				{{ startday}} - {{ endday }} {{ startmonth }}
+			{% else %}
+				{{ startday }} {{ startmonth }} - {{ endday }} {{ endmonth }}
 			{% endif  %}
 		{% endcapture %}
 
 		<div class='travelitem {% if travitem.enddate < currdate %}{{ oldtravelitem }}{% endif %}'>
-			<span class='traveldate'></span>&nbsp;&middot;&nbsp;<span class='travelloc'>{{ travitem.location }}</span><br/>
+			<span class='traveldate'>{{ datestring }}</span>&nbsp;&middot;&nbsp;<span class='travelloc'>{{ travitem.location }}</span><br/>
 			<span class='travelevent'>{{ travitem.event }}</span>
 		</div>
 

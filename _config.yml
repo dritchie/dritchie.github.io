@@ -1,3 +1,6 @@
 # Site settings
 
 title: Daniel Ritchie
+
+collections:
+- news

@@ -5,7 +5,6 @@
 	"title": "Neurally-Guided Procedural Models: Amortized Inference for Procedural Graphics Programs using Neural Networks",
 	"authors": ["Daniel Ritchie", "Anna Thomas", "Andreas Stuhlmüller", "Noah D. Goodman"],
 	"venue": "NIPS 2016 (to appear)",
-	"year": "2016",
 	"date": "2016-12-05",
 	"links" : [
 		{"type": "link", "name": "arXiv preprint", "target": "http://arxiv.org/abs/1603.06143"}
@@ -17,7 +16,6 @@
 	"title": "C3: Lightweight Incrementalized MCMC for Probabilistic Programs using Continuations and Callsite Caching",
 	"authors": ["Daniel Ritchie", "Andreas Stuhlmüller", "Noah D. Goodman"],
 	"venue": "AISTATS 2016",
-	"year": "2016",
 	"date": "2016-05-09",
 	"links" : [
 		{"type": "pdf"},
@@ -31,7 +29,6 @@
 	"title": "Controlling Procedural Modeling Programs with Stochastically-Ordered Sequential Monte Carlo",
 	"authors": ["Daniel Ritchie", "Ben Mildenhall", "Noah D. Goodman", "Pat Hanrahan"],
 	"venue": "SIGGRAPH 2015",
-	"year": "2015",
 	"date": "2015-08-09",
 	"links" : [
 		{"type": "pdf"},
@@ -46,7 +43,6 @@
 	"title": "Generating Design Suggestions under Tight Constraints with Gradient-based Probabilistic Programming",
 	"authors": ["Daniel Ritchie", "Sharon Lin", "Noah D. Goodman", "Pat Hanrahan"],
 	"venue": "Eurographics 2015",
-	"year": "2015",
 	"date": "2015-05-04",
 	"award": "Best Paper Honorable Mention",
 	"links" : [
@@ -61,7 +57,6 @@
 	"title": "Quicksand: A Lightweight Embedding of Probabilistic Programming for Procedural Modeling and Design",
 	"authors": ["Daniel Ritchie"],
 	"venue": "3rd NIPS Workshop on Probabilistic Programming",
-	"year": "2014",
 	"date": "2014-12-13",
 	"links" : [
 		{"type": "pdf"},
@@ -76,7 +71,6 @@
 	"title": "First-class Runtime Generation of High-performance Types using Exotypes",
 	"authors": ["Zachary Devito", "Daniel Ritchie", "Matthew Fisher", "Pat Hanrahan"],
 	"venue": "PLDI 2014",
-	"year": "2014",
 	"date": "2014-06-09",
 	"links" : [
 		{"type": "pdf"},
@@ -89,7 +83,6 @@
 	"title": "Probabilistic Color-by-Numbers: Suggesting Pattern Colorizations Using Factor Graphs",
 	"authors": ["Sharon Lin", "Daniel Ritchie", "Matthew Fisher", "Pat Hanrahan"],
 	"venue": "SIGGRAPH 2013",
-	"year": "2013",
 	"date": "2013-07-21",
 	"links" : [
 		{"type": "pdf"},
@@ -102,7 +95,6 @@
 	"title": "Example-based Synthesis of 3D Object Arrangements",
 	"authors": ["Matthew Fisher", "Daniel Ritchie", "Manolis Savva", "Thomas Funkhouser", "Pat Hanrahan"],
 	"venue": "SIGGRAPH Asia 2012",
-	"year": "2012",
 	"date": "2012-11-30",
 	"links" : [
 		{"type": "pdf"},
@@ -115,7 +107,6 @@
 	"title": "d.tour: Style-based Exploration of Design Example Galleries",
 	"authors": ["Daniel Ritchie", "Ankita Kejriwal", "Scott R. Klemmer"],
 	"venue": "UIST 2011",
-	"year": "2011",
 	"date": "2011-10-16",
 	"links" : [
 		{"type": "pdf"},
@@ -128,7 +119,6 @@
 	"title": "Dynamic Local Remeshing for Elastoplastic Simulation",
 	"authors": ["Martin Wicke", "Daniel Ritchie", "Bryan M. Klingner", "Sebastian Burke", "Jonathan R. Shewchuk", "James F. O'Brien"],
 	"venue": "SIGGRAPH 2010",
-	"year": "2010",
 	"date": "2010-07-25",
 	"links" : [
 		{"type": "pdf"},
@@ -143,7 +133,6 @@
 	"title": "Interactive Simulation of Surgical Needle Insertion and Steering",
 	"authors": ["Nuttapong Chentanez", "Ron Alterovitz", "Daniel Ritchie", "Lita Cho", "Kris Hauser", "Ken Goldberg", "Jonathan R. Shewchuk", "James F. O'Brien"],
 	"venue": "SIGGRAPH 2009",
-	"year": "2009",
 	"date": "2009-08-04",
 	"links" : [
 		{"type": "pdf"},
