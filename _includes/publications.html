@@ -5,7 +5,7 @@
 	<div class='row pub'>
 
 		{% assign linktypes = pub.links | map: 'type' | join ' ' %}
-		
+
 		{% capture pdflink %}
 			{% if linktypes contains 'pdf' %}
 				{% assign pdflink = (pub.links | where: 'type','pdf')[0] %}
@@ -17,9 +17,9 @@
 			{% endif %}
 		{% endcapture %}
 
-		<div class='col-lg-3 col-md-4 col-xs-4 pubimagesection '>
+		<div class='col-lg-3 col-md-4 col-xs-5 pubimagesection'>
 			{% capture imagehtml %}
-				<img class='pubimage' 'img' 'img-responsive' src='img/pubthumbs/{{ pub.id }}.png' width='250'/>
+				<img class='pubimage img img-responsive' src='img/pubthumbs/{{ pub.id }}.png' width='200'/>
 			{% endcapture %}
 
 			{% if linktypes contains 'pdf' %}
@@ -29,7 +29,7 @@
 			{% endif %}
 		</div>
 
-		<div class='col-lg-9 col-md-8 col-xs-8 pubtextsection '>
+		<div class='col-lg-9 col-md-8 col-xs-7 pubtextsection'>
 
 			<div class='pubtitle'>
 				{% if linktypes contains 'pdf' %}
