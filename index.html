@@ -5,9 +5,12 @@ layout: default
 <div class='mainitem' id='about'>
 	<div class='hidden-md hidden-lg mainheader'>About</div>
 
-	<div>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies sapien et risus scelerisque, iaculis condimentum mi iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur nec tincidunt dolor. In vestibulum commodo lectus eu iaculis. Praesent ac leo eu tortor aliquam auctor nec id tortor. Pellentesque quis nunc sollicitudin, tristique purus sit amet, bibendum nulla. Pellentesque eget semper orci. Duis ac convallis lectus. Aliquam placerat est sed urna elementum fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-	</div>
+	<p>
+		I am a postdoctoral researcher in <a target='_blank' href='https://cs.stanford.edu'>Computer Science</a> at <a target='_blank' href='https://stanford.edu'>Stanford University</a>, where I work with <a target='_blank' href='https://graphics.stanford.edu/~hanrahan'>Pat Hanrahan</a> in the <a target='_blank' href='https://graphics.stanford.edu'>Graphics Lab</a> and with <a target='_blank' href='http://cocolab.stanford.edu/ndg.html'>Noah Goodman</a> in the <a target='_blank' href='http://cocolab.stanford.edu'>Computation and Cognition Lab</a>. I build artificially-intelligent systems that help people be creative. Much of my recent work focuses on the development of probabilistic programming languages and their application to problems in graphics and design.
+	</p>
+	<p>
+		I received my PhD from Stanford University and my undergraduate degree from the <a target='_blank' href='http://www.berkeley.edu'>University of California, Berkeley</a>.
+	</p>
 
 </div>
 
@@ -18,9 +21,9 @@ layout: default
 
 	{% for newsitem in sortednews %}
 
-		<div class='newsitem'>
-			<div class='newsdate'>{{ newsitem.date | date_to_long_string }}</div>
-			<div class='newscontent'>{{ newsitem.content }}</div>
+		<div class='row newsitem'>
+			<div class='col-md-3 col-lg-2 newsdate'>{{ newsitem.date | date_to_long_string }}</div>
+			<div class='col-md-9 col-gl-10 newscontent'>{{ newsitem.content }}</div>
 		</div>
 
 	{% endfor %}

@@ -1,12 +1,12 @@
 <div class='sidebaritem' id='headshot'>
-	<img class='img img-responsive' src='img/me.jpg' width='350'/>
+	<img class='img img-rounded img-responsive' src='img/me.jpg' width='350'/>
 </div>
 
 <div class='sidebaritem' id='affiliations'>
 	<div class='sidebarheader'>Affiliations</div>
 	<div><a target='_blank' href='http://stanford.edu'>Stanford University</a></div>
-	<div><a target='_blank' href='http://stanford.edu'>Computer Science Department</a></div>
-	<div><a target='_blank' href='http://graphicsstanford.edu'>Graphics Lab</a> | <a href='http://cocolab.stanford.edu'>CoCoLab</a></div>
+	<div><a target='_blank' href='http://cs.stanford.edu'>Computer Science Department</a></div>
+	<div><a target='_blank' href='http://graphics.stanford.edu'>Graphics Lab</a> | <a target='_blank' href='http://cocolab.stanford.edu'>CoCoLab</a></div>
 </div>
 
 <div class='sidebaritem' id='contactinfo'>
@@ -44,10 +44,8 @@
 <div class='sidebaritem' id='travel'>
 	<div class='sidebarheader'>Travel</div>
 
-	{% capture currdate %}
-		{% assign toks =  site.time | split: ' ' %}
-		{{ toks[0] }}
-	{% endcapture %}
+	{% assign currdate_parts = site.time | date_to_xmlschema | split: 'T' %}
+	{% assign currdate = currdate_parts[0] %}
 
 	{% assign sortedtravelitems = site.data.travel.items | sort: 'startdate' %}
 
@@ -72,7 +70,7 @@
 			{% endif  %}
 		{% endcapture %}
 
-		<div class='travelitem {% if travitem.enddate < currdate %}{{ oldtravelitem }}{% endif %}'>
+		<div class='travelitem {% if travitem.enddate < currdate %} oldtravelitem {% endif %}'>
 			<span class='traveldate'>{{ datestring }}</span>&nbsp;&middot;&nbsp;<span class='travelloc'>{{ travitem.location }}</span><br/>
 			<span class='travelevent'>{{ travitem.event }}</span>
 		</div>

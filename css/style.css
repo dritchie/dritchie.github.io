@@ -1,3 +1,93 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+}
+
+a, a:hover {
+	color: #3355BB;
+}
+
+/*---------------------------------------------------------------*/
+
+#mainnav {
+	background-color: #112266;
+}
+
+.navbar-brand {
+	font-size: 3em;
+	line-height: 0.6em;
+	font-variant: small-caps;
+}
+
+.navbar-brand a {
+	color: #DCDCDC;
+}
+
+.navbar-brand a:hover {
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------*/
+
+.sidebaritem {
+	margin-bottom: 15px;
+}
+
+.sidebarheader {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 17px;
+	margin-bottom: 2px;
+}
+
+/*---------------------------------------------------------------*/
+
+.travelitem {
+	margin-bottom: 6px;
+}
+
+.oldtravelitem {
+	color: #AAAAAA;
+}
+
+.traveldate {
+	font-weight: bold;
+}
+
+.travelloc {
+	/*font-weight: bold;*/
+}
+
+.travelevent {
+	/*font-style: italic;*/
+}
+
+/*---------------------------------------------------------------*/
+
+.mainitem {
+	margin-bottom: 1.25em;
+}
+
+.mainheader {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 25px;
+	margin-bottom: 6px;
+}
+
+/*---------------------------------------------------------------*/
+
+.newsitem {
+	margin-bottom: 8px;
+}
+
+.newsdate {
+	font-weight: bold;
+}
+
+/*---------------------------------------------------------------*/
+
 .pub {
 	padding-bottom: 8px;
 }
@@ -13,3 +103,5 @@
 .pubvenue {
 	font-style: italic;
 }
+
+/*---------------------------------------------------------------*/
