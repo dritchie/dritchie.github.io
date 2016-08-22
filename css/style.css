@@ -104,4 +104,11 @@ a, a:hover {
 	font-style: italic;
 }
 
+.pubaward {
+	display: inline-block;
+	margin-top: 5px;
+	background-color: #112266;
+	font-size: 13px;
+}
+
 /*---------------------------------------------------------------*/
