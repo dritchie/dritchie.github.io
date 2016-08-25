@@ -48,6 +48,7 @@
 	"links" : [
 		{"type": "pdf"},
 		{"type": "slides"},
+		{"type": "link", "name": "video", "target": "https://www.youtube.com/watch?v=Ymtl-w_97sU"},
 		{"type": "link", "name": "code", "target": "https://github.com/dritchie/graphics-hmc"}
 	]
 },
