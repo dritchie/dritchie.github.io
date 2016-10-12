@@ -40,39 +40,25 @@ layout: default
 
 		<div class='row pub'>
 
-			{% assign linktypes = pub.links | map: 'type' | join ' ' %}
-
-			{% capture pdflink %}
-				{% if linktypes contains 'pdf' %}
-					{% assign pdflink = (pub.links | where: 'type','pdf')[0] %}
-					{% if pdflink.target %}
-						{{ pdflink.target }}
-					{% else %}
-						pdf/{{ pub.id }}.pdf
-					{% endif %}
+			{% capture mainlink %}
+				{% assign firstlink = pub.links[0] %}
+				{% if firstlink.target %}
+					{{ firstlink.target }}
+				{% elsif firstlink.type == 'pdf' %}
+					pdf/{{ pub.id }}.pdf
+				{% else %}
+					/
 				{% endif %}
 			{% endcapture %}
 
 			<div class='col-lg-3 col-md-4 col-xs-4 pubimagesection'>
-				{% capture imagehtml %}
-					<img class='pubimage img img-responsive' src='img/pubthumbs/{{ pub.id }}.png' width='200'/>
-				{% endcapture %}
-
-				{% if linktypes contains 'pdf' %}
-					<a target='_blank' href='{{ pdflink }}'>{{ imagehtml }}</a>
-				{% else %}
-					{{ imagehtml }}
-				{% endif %}
+				<a target='_blank' href='{{ mainlink }}'><img class='pubimage img img-responsive' src='img/pubthumbs/{{ pub.id }}.png' width='200'/></a>
 			</div>
 
 			<div class='col-lg-9 col-md-8 col-xs-8 pubtextsection'>
 
 				<div class='pubtitle'>
-					{% if linktypes contains 'pdf' %}
-						<a target='_blank' href='{{ pdflink }}'>{{ pub.title }}</a>
-					{% else %}
-						{{ pub.title }}
-					{% endif %}
+					<a target='_blank' href='{{ mainlink }}'>{{ pub.title }}</a>
 				</div>
 
 				<div class='pubauthors'>
