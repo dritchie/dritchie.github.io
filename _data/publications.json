@@ -1,6 +1,18 @@
 [
 
 {
+	"id": "daipp",
+	"title": "Deep Amortized Inference for Probabilistic Programs",
+	"authors": ["Daniel Ritchie", "Paul Horsfall", "Noah D. Goodman"],
+	"venue": "arXiv 2016",
+	"date": "2016-10-18",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1610.05735"}
+	]
+},
+
+{
 	"id": "ngpm",
 	"title": "Neurally-Guided Procedural Models: Amortized Inference for Procedural Graphics Programs using Neural Networks",
 	"authors": ["Daniel Ritchie", "Anna Thomas", "Pat Hanrahan", "Noah D. Goodman"],
