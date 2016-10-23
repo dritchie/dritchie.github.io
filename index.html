@@ -63,7 +63,7 @@ layout: default
 
 				<div class='pubauthors'>
 					{% for author in pub.authors %}
-						{% if forloop.last %} and {% endif %}
+						{% if forloop.last %}{% unless forloop.first %} and {% endunless %}{% endif %}
 						{% if site.data.people[author] %}
 							<a class='pubauthor' target='_blank' href='{{ site.data.people[author] }}'>
 								{{ author }}{% if forloop.last == false %}, {% endif %}

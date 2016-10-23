@@ -1,6 +1,18 @@
 [
 
 {
+	"id": "thesis",
+	"title": "Probabilistic Programming for Procedural Modeling and Design",
+	"authors": ["Daniel Ritchie"],
+	"venue": "Stanford University Doctoral Dissertation 2016",
+	"date": "2016-09-29",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "stanford library", "target": "https://purl.stanford.edu/vh730bw6700"}
+	]
+},
+
+{
 	"id": "daipp",
 	"title": "Deep Amortized Inference for Probabilistic Programs",
 	"authors": ["Daniel Ritchie", "Paul Horsfall", "Noah D. Goodman"],
