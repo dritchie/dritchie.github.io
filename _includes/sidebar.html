@@ -78,3 +78,15 @@
 	{% endfor %}
 
 </div>
+
+<div class='sidebaritem' id='resources'>
+	<div class='sidebarheader'>Resources</div>
+	{% for resource in site.data.resources %}
+
+		<div class='resource'>
+			<a class='resourcelink' href='{{ resource.link }}' target='_blank'>{{ resource.name }}</a>
+			<p>{{ resource.description }}</p>
+		</div>
+
+	{% endfor %}
+</div>

@@ -34,6 +34,7 @@
 		{"type": "pdf"},
 		{"type": "link", "name": "supplemental", "target": "pdf/ngpm_supplemental.pdf"},
 		{"type": "link", "name": "video", "target": "https://www.youtube.com/watch?v=ZeZcsbNXMDM"},
+		{"type": "link", "name": "demo", "target": "http://webppl.org/demos/vines/index.html"},
 		{"type": "link", "name": "arXiv", "target": "http://arxiv.org/abs/1603.06143"}
 	]
 },
