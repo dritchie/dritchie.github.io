@@ -2,13 +2,6 @@
 	"items": [
 
 		{
-			"startdate": "2016-07-24",
-			"enddate": "2016-07-29",
-			"event": "SIGGRAPH",
-			"location": "Anaheim, CA"
-		},
-
-		{
 			"startdate": "2016-07-30",
 			"enddate": "2016-08-05",
 			"event": "PPAML Summer School",
@@ -20,6 +13,13 @@
 			"enddate": "2016-12-11",
 			"event": "NIPS",
 			"location": "Barcelona, ES"
+		},
+
+		{
+			"startdate": "2017-01-24",
+			"enddate": "2017-01-27",
+			"event": "DARPA PI Meeting",
+			"location": "Arlington, VA"
 		},
 
 	]
