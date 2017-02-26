@@ -2,13 +2,6 @@
 	"items": [
 
 		{
-			"startdate": "2016-07-30",
-			"enddate": "2016-08-05",
-			"event": "PPAML Summer School",
-			"location": "Portland, OR"
-		},
-
-		{
 			"startdate": "2016-12-03",
 			"enddate": "2016-12-11",
 			"event": "NIPS",
@@ -20,6 +13,13 @@
 			"enddate": "2017-01-27",
 			"event": "DARPA PI Meeting",
 			"location": "Arlington, VA"
+		},
+
+		{
+			"startdate": "2017-03-19",
+			"enddate": "2017-03-22",
+			"event": "Brown CS PhD Recruiting",
+			"location": "Providence, RI"
 		},
 
 	]
