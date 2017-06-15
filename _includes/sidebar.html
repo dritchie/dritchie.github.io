@@ -4,17 +4,17 @@
 
 <div class='sidebaritem' id='affiliations'>
 	<div class='sidebarheader'>Affiliations</div>
-	<div><a target='_blank' href='http://stanford.edu'>Stanford University</a></div>
-	<div><a target='_blank' href='http://cs.stanford.edu'>Computer Science Department</a></div>
-	<div><a target='_blank' href='http://graphics.stanford.edu'>Graphics Lab</a> | <a target='_blank' href='http://cocolab.stanford.edu'>CoCoLab</a></div>
+	<div><a target='_blank' href='http://brown.edu'>Brown University</a></div>
+	<div><a target='_blank' href='http://cs.brown.edu'>Computer Science Department</a></div>
 </div>
 
 <div class='sidebaritem' id='contactinfo'>
 	<div class='sidebarheader'>Contact Information</div>
-	<div>Gates Computer Science, Room 372</div>
-	<div>Stanford, CA 94305</div>
+	<div>CIT, Room 445</div>
+	<div>115 Waterman Street</div>
+	<div>Providence, RI 02912</div>
 	<div>
-		<a href='mailto:dritchie@cs.stanford.edu' style='text-decoration:none'>
+		<a href='mailto:daniel_ritchie@brown.edu' style='text-decoration:none'>
 		  <img src='img/icons/email.svg' type='image/svg+xml'
 		       width=32px style='vertical-align:middle'>
 		</a>
@@ -27,11 +27,6 @@
 		<a target='_blank' href='misc/cv.pdf' style='text-decoration:none'>
 		  <img src='img/icons/cv.png'
 		       width=32px style='vertical-align:middle'>
-		</a>
-		&nbsp;
-		<a target='_blank' href='https://www.linkedin.com/in/daniel-ritchie-266127109' style='text-decoration:none'>
-		  <img src='img/icons/linkedin.png'
-		       width=36px style='vertical-align:middle'>
 		</a>
 		&nbsp;
 		<a target='_blank' href='https://soundcloud.com/daniel-ritchie-2' style='text-decoration:none'>
@@ -49,31 +44,33 @@
 
 	{% assign sortedtravelitems = site.data.travel.items | sort: 'startdate' %}
 
-	{% for travitem in site.data.travel.items %}
+	{% for travitem in sortedtravelitems %}
 
-		{% capture datestring %}
-			{% assign startdateparts = travitem.startdate | split: '-' %}
-			{% assign startmonthi = startdateparts[1] | minus: 1 %}
-			{% assign startmonth = site.data.date.monthnames_short[startmonthi] %}
-			{% assign startday = startdateparts[2] %}
-			{% assign enddateparts = travitem.enddate | split: '-' %}
-			{% assign endmonthi = enddateparts[1] | minus: 1 %}
-			{% assign endmonth = site.data.date.monthnames_short[endmonthi] %}
-			{% assign endday = enddateparts[2] %}
+		{% if forloop.rindex <= 3 %}
+			{% capture datestring %}
+				{% assign startdateparts = travitem.startdate | split: '-' %}
+				{% assign startmonthi = startdateparts[1] | minus: 1 %}
+				{% assign startmonth = site.data.date.monthnames_short[startmonthi] %}
+				{% assign startday = startdateparts[2] %}
+				{% assign enddateparts = travitem.enddate | split: '-' %}
+				{% assign endmonthi = enddateparts[1] | minus: 1 %}
+				{% assign endmonth = site.data.date.monthnames_short[endmonthi] %}
+				{% assign endday = enddateparts[2] %}
 
-			{% if travitem.startdate == travitem.enddate %}
-				{{ startday }} {{ startmonth }}
-			{% elsif startmonth == endmonth %}
-				{{ startday}} - {{ endday }} {{ startmonth }}
-			{% else %}
-				{{ startday }} {{ startmonth }} - {{ endday }} {{ endmonth }}
-			{% endif  %}
-		{% endcapture %}
+				{% if travitem.startdate == travitem.enddate %}
+					{{ startday }} {{ startmonth }}
+				{% elsif startmonth == endmonth %}
+					{{ startday}} - {{ endday }} {{ startmonth }}
+				{% else %}
+					{{ startday }} {{ startmonth }} - {{ endday }} {{ endmonth }}
+				{% endif  %}
+			{% endcapture %}
 
-		<div class='travelitem {% if travitem.enddate < currdate %} oldtravelitem {% endif %}'>
-			<span class='traveldate'>{{ datestring }}</span>&nbsp;&middot;&nbsp;<span class='travelloc'>{{ travitem.location }}</span><br/>
-			<span class='travelevent'>{{ travitem.event }}</span>
-		</div>
+			<div class='travelitem {% if travitem.enddate < currdate %} oldtravelitem {% endif %}'>
+				<span class='traveldate'>{{ datestring }}</span>&nbsp;&middot;&nbsp;<span class='travelloc'>{{ travitem.location }}</span><br/>
+				<span class='travelevent'>{{ travitem.event }}</span>
+			</div>
+		{% endif %}
 
 	{% endfor %}
 

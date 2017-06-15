@@ -22,5 +22,12 @@
 			"location": "Providence, RI"
 		},
 
+		{
+			"startdate": "2017-07-30",
+			"enddate": "2017-08-03",
+			"event": "SIGGRAPH",
+			"location": "Los Angeles, CA"
+		},
+
 	]
 }
