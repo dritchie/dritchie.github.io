@@ -29,5 +29,12 @@
 			"location": "Los Angeles, CA"
 		},
 
+		{
+			"startdate": "2017-08-06",
+			"enddate": "2017-08-08",
+			"event": "ACM New Faculty Teaching Workshop",
+			"location": "San Diego, CA"
+		}
+
 	]
 }
