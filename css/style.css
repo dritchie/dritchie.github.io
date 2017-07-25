@@ -43,6 +43,27 @@ a, a:hover {
 
 /*---------------------------------------------------------------*/
 
+#officehours {
+	margin-top: 7px;
+	margin-bottom: 8px;
+}
+
+/*---------------------------------------------------------------*/
+
+.teachingitem {
+	margin-bottom: 6px;
+}
+
+.teachingterm {
+	font-weight: bold;
+}
+
+.teachinglink {
+	font-weight: bold;
+}
+
+/*---------------------------------------------------------------*/
+
 .travelitem {
 	margin-bottom: 6px;
 }

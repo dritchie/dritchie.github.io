@@ -13,6 +13,7 @@
 	<div>CIT, Room 555</div>
 	<div>115 Waterman Street</div>
 	<div>Providence, RI 02912</div>
+	<div id='officehours'>Office Hours: Tues 2-4pm</div>
 	<div>
 		<a href='mailto:daniel_ritchie@brown.edu' style='text-decoration:none'>
 		  <img src='img/icons/email.svg' type='image/svg+xml'
@@ -34,6 +35,21 @@
 		       width=32px style='vertical-align:middle'>
 		</a>
 	</div>
+</div>
+
+<div class='sidebaritem' id='teaching'>
+	<div class='sidebarheader'>Teaching</div>
+
+	{% assign sorted_classes = site.data.teaching | sort: 'startdate' | reverse %}
+	{% for class in sorted_classes limit: 3 %}
+
+		<div class='teachingitem'>
+			<div class='teachingterm'>{{ class.term }}</div>
+			<a class='teachinglink' target='_blank' href='{{ class.link }}'>{{ class.number }}: {{ class.name }}</a>
+		</div>
+
+	{% endfor %}
+
 </div>
 
 <div class='sidebaritem' id='travel'>
