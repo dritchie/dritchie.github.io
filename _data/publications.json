@@ -1,6 +1,17 @@
 [
 
 {
+	"id": "tikz",
+	"title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
+	"authors": ["Daniel Ritchie"],
+	"venue": "arXiv 2017",
+	"date": "2017-08-01",
+	"links" : [
+		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1707.09627"}
+	]
+},
+
+{
 	"id": "thesis",
 	"title": "Probabilistic Programming for Procedural Modeling and Design",
 	"authors": ["Daniel Ritchie"],
