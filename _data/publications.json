@@ -3,7 +3,7 @@
 {
 	"id": "tikz",
 	"title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
-	"authors": ["Daniel Ritchie"],
+	"authors": ["Kevin Ellis", "Daniel Ritchie", "Armando Solar-Lezama", "Joshua B. Tenenbaum"],
 	"venue": "arXiv 2017",
 	"date": "2017-08-01",
 	"links" : [
