@@ -41,6 +41,13 @@
 			"enddate": "2017-09-26",
 			"event": "MIT",
 			"location": "Cambridge, MA"
+		},
+
+		{
+			"startdate": "2017-09-12",
+			"enddate": "2017-09-12",
+			"event": "NSF Day",
+			"location": "Hartford, CT"
 		}
 
 	]
