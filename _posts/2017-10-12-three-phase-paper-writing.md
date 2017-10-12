@@ -48,7 +48,7 @@ Having these bullet points make it easy in later phases to build a compelling mo
 
 As the project progresses, parts of this outline may need to change (“I now see that it won’t be feasible to get that result by the deadline, “this other result is actually really important, “now that I understand the method’s strengths better, it makes more sense to motivate it like this”). Since I haven’t fleshed out any of these sections very much, making such changes is relatively painless.
 
-“But wait,” you’re asking, “where’s the abstract? Doesn’t that come first?” The abstract is actually of the of the last things I write. It’s goal is to concisely summarize the paper and what the reader can hope to get out of it; I find this much easier to do when the paper is almost finished.
+“But wait,” you’re asking, “where’s the abstract? Doesn’t that come first?” The abstract is actually one of the last things I write. It’s goal is to concisely summarize the paper and what the reader can hope to get out of it; I find this much easier to do when the paper is almost finished.
 
 The paper stays at this phase until the research project reaches *feature freeze*: the details of the algorithm/system have been finalized and the code will not change any further (modulo fiddling with parameters). All that remains is running experiments and generating other results. At that point, I feel it’s safe to move forward into Phase II.
 
