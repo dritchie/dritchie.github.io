@@ -3,6 +3,11 @@ body {
 	font-size: 15px;
 }
 
+.post {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
 a, a:hover {
 	color: #3355BB;
 }
