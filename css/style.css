@@ -49,7 +49,12 @@ a, a:hover {
 /*---------------------------------------------------------------*/
 
 #officehours {
-	margin-top: 7px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+#prospectives {
+	margin-top: 8px;
 	margin-bottom: 8px;
 }
 
