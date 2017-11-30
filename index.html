@@ -22,8 +22,8 @@ layout: default
 	{% for newsitem in sortednews limit: 5 %}
 
 		<div class='row newsitem'>
-			<div class='col-md-3 col-lg-2 newsdate'>{{ newsitem.date | date_to_long_string }}</div>
-			<div class='col-md-9 col-gl-10 newscontent'>{{ newsitem.content }}</div>
+			<div class='col-md-3 col-lg-2 newsdate'>{{ newsitem.date | date_to_string }}</div>
+			<div class='col-md-9 col-lg-10 newscontent'>{{ newsitem.content }}</div>
 		</div>
 
 	{% endfor %}
@@ -68,10 +68,10 @@ layout: default
 						{% if forloop.last %}{% unless forloop.first %} and {% endunless %}{% endif %}
 						{% if site.data.people[author] %}
 							<a class='pubauthor' target='_blank' href='{{ site.data.people[author] }}'>
-								{{ author }}{% if forloop.last == false %}, {% endif %}
+								{{ author }}{% if forloop.last == false %}{% unless forloop.length == 2 %}, {% endunless %}{% endif %}
 							</a>
 						{% else %}
-							{{ author }}{% if forloop.last == false %}, {% endif %}
+							{{ author }}{% if forloop.last == false %}{% unless forloop.length == 2 %}, {% endunless %}{% endif %}
 						{% endif %}
 					{% endfor %}
 				</div>

@@ -10,8 +10,8 @@ layout: default
 	{% for newsitem in sortednews %}
 
 		<div class='row newsitem'>
-			<div class='col-md-3 col-lg-2 newsdate'>{{ newsitem.date | date_to_long_string }}</div>
-			<div class='col-md-9 col-gl-10 newscontent'>{{ newsitem.content }}</div>
+			<div class='col-md-3 col-lg-2 newsdate'>{{ newsitem.date | date_to_string }}</div>
+			<div class='col-md-9 col-lg-10 newscontent'>{{ newsitem.content }}</div>
 		</div>
 
 	{% endfor %}

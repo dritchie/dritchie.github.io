@@ -1,6 +1,18 @@
 [
 
 {
+	"id": "nadc",
+	"title": "An Improved Training Procedure for Neural Autoregressive Data Completion",
+	"authors": ["Maxime Voisin", "Daniel Ritchie"],
+	"venue": "NIPS 2017 Bayesian Deep Learning Workshop",
+	"date": "2017-12-10",
+	"links" : [
+		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1711.08598"},
+		{"type": "link", "name": "code", "target": "https://github.com/maximevo/An-Improved-Training-Procedure-for-Neural-Autoregressive-Data-Completion"}
+	]
+},
+
+{
 	"id": "tikz",
 	"title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
 	"authors": ["Kevin Ellis", "Daniel Ritchie", "Armando Solar-Lezama", "Joshua B. Tenenbaum"],
