@@ -1,6 +1,15 @@
 [
 
 {
+	"id": "procmod-learn",
+	"title": "Example-based Authoring of Procedural Models with Structural and Continuous Variability",
+	"authors": ["Daniel Ritchie", "Sarah Jobalia", "Anna Thomas"],
+	"venue": "Eurographics 2018 (conditionally accepted)",
+	"date": "2017-12-15",
+	"links" : []
+},
+
+{
 	"id": "nadc",
 	"title": "An Improved Training Procedure for Neural Autoregressive Data Completion",
 	"authors": ["Maxime Voisin", "Daniel Ritchie"],
