@@ -2,11 +2,15 @@
 
 {
 	"id": "procmod-learn",
-	"title": "Example-based Authoring of Procedural Models with Structural and Continuous Variability",
+	"title": "Example-based Authoring of Procedural Modeling Programs with Structural and Continuous Variability",
 	"authors": ["Daniel Ritchie", "Sarah Jobalia", "Anna Thomas"],
-	"venue": "Eurographics 2018 (conditionally accepted)",
-	"date": "2017-12-15",
-	"links" : []
+	"venue": "Eurographics 2018",
+	"date": "2018-04-06",
+	"links" : [
+		{"type": "pdf"},
+		{"type": "link", "name": "supplemental", "target": "https://www.dropbox.com/s/zj1dl355f4wuas5/procmod-learn_supplemental.zip?dl=0"},
+		{"type": "link", "name": "code & data (forthcoming)", "target": "."}
+	]
 },
 
 {
