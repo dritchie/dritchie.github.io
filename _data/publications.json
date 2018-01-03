@@ -14,6 +14,18 @@
 },
 
 {
+	"id": "scancomplete",
+	"title": "ScanComplete: Large-Scale Scene Completion and Semantic Segmentation for 3D Scans",
+	"authors": ["Angela Dai", "Daniel Ritchie", "Martin Bokeloh", "Scott Reed", "Jürgen Sturm", "Matthias Nießner"],
+	"venue": "arXiv 2017",
+	"date": "2017-12-29",
+	"links" : [
+		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1712.10215"},
+		{"type": "link", "name": "video", "target": "https://www.youtube.com/watch?v=5s5s8iH0NF8"}
+	]
+},
+
+{
 	"id": "nadc",
 	"title": "An Improved Training Procedure for Neural Autoregressive Data Completion",
 	"authors": ["Maxime Voisin", "Daniel Ritchie"],
