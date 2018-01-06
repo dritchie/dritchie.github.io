@@ -55,6 +55,27 @@
 			"enddate": "2017-12-09",
 			"event": "NIPS",
 			"location": "Long Beach, CA"
-		}
+		},
+
+		{
+			"startdate": "2018-02-08",
+			"enddate": "2018-02-09",
+			"event": "ML + PL Workshop at UW",
+			"location": "Seattle, WA"
+		},
+
+		{
+			"startdate": "2018-02-26",
+			"enddate": "2018-02-27",
+			"event": "CRA Career Mentoring Workshop",
+			"location": "Arlington, VA"
+		},
+
+		{
+			"startdate": "2018-04-16",
+			"enddate": "2018-04-20",
+			"event": "Eurographics",
+			"location": "Delft, NL"
+		},
 	]
 }
