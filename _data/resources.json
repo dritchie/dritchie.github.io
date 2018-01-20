@@ -3,11 +3,5 @@
 		"name": "Three-phase Paper Writing",
 		"link": "/2017/10/12/three-phase-paper-writing.html",
 		"description": "An algorithm for writing technical papers"
-	},
-	
-	{
-		"name": "WebPPL",
-		"link": "http://webppl.org",
-		"description": "A Javascript-based probabilistic programming language"
 	}
 ]
