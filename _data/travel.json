@@ -84,5 +84,12 @@
 			"event": "New England Symposium on Graphics",
 			"location": "Cambridge, MA"
 		},
+
+		{
+			"startdate": "2018-05-07",
+			"enddate": "2018-05-07",
+			"event": "New England Machine Learning Day",
+			"location": "Cambridge, MA"
+		},
 	]
 }
