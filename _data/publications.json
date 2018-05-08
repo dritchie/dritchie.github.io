@@ -4,7 +4,7 @@
 	"id": "deepsynth",
 	"title": "Deep Convolutional Priors for Indoor Scene Synthesis",
 	"authors": ["Kai Wang", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
-	"venue": "SIGGRAPH 2018 (Conditionally Accepted)",
+	"venue": "SIGGRAPH 2018",
 	"date": "2018-08-01",
 	"links" : [
 		{"type": "pdf"}
