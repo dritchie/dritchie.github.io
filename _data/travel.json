@@ -91,5 +91,19 @@
 			"event": "New England Machine Learning Day",
 			"location": "Cambridge, MA"
 		},
+
+		{
+			"startdate": "2018-08-10",
+			"enddate": "2018-08-11",
+			"event": "SIGGRAPH Asia PC Meeting",
+			"location": "Vancouver, BC"
+		},
+
+		{
+			"startdate": "2018-08-12",
+			"enddate": "2018-08-16",
+			"event": "SIGGRAPH",
+			"location": "Vancouver, BC"
+		},
 	]
 }
