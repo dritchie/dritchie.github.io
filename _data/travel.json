@@ -93,6 +93,13 @@
 		},
 
 		{
+			"startdate": "2018-06-19",
+			"enddate": "2018-06-21",
+			"event": "CVPR",
+			"location": "Salt Lake City, UT"
+		},
+
+		{
 			"startdate": "2018-08-10",
 			"enddate": "2018-08-11",
 			"event": "SIGGRAPH Asia PC Meeting",
