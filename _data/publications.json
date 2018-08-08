@@ -7,7 +7,8 @@
 	"venue": "SIGGRAPH 2018",
 	"date": "2018-08-01",
 	"links" : [
-		{"type": "pdf"}
+		{"type": "pdf"},
+		{"type": "link", "name": "code", "target": "https://github.com/brownvc/deep-synth"}
 	]
 },
 
