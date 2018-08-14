@@ -1,6 +1,19 @@
 [
 
 {
+	"id": "ganimorph",
+	"title": "Improving Shape Deformation in Unsupervised Image-to-Image Translation",
+	"authors": ["Aaron Gokaslan", "Vivek Ramanujan", "Daniel Ritchie", "Kwang In Kim", "James Tompkin"],
+	"venue": "ECCV 2018",
+	"date": "2018-09-08",
+	"links" : [
+		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1808.04325"},
+		{"type": "link", "name": "code", "target": "https://github.com/brownvc/ganimorph"}
+	]
+},
+
+
+{
 	"id": "deepsynth",
 	"title": "Deep Convolutional Priors for Indoor Scene Synthesis",
 	"authors": ["Kai Wang", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
