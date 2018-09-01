@@ -112,5 +112,19 @@
 			"event": "SIGGRAPH",
 			"location": "Vancouver, BC"
 		},
+
+		{
+			"startdate": "2018-10-03",
+			"enddate": "2018-10-03",
+			"event": "IBM AI Systems Day",
+			"location": "Cambridge, MA"
+		},
+
+		{
+			"startdate": "2018-10-04",
+			"enddate": "2018-10-06",
+			"event": "PROBPROG 2018",
+			"location": "Boston, MA"
+		},
 	]
 }
