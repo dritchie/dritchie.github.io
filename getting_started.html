@@ -1,0 +1,98 @@
+---
+title: Getting Started in the Lab
+layout: post
+---
+
+<h2>Getting Started in the Lab</h2>
+<hr/>
+
+<p>
+	This article documents useful things to do / know to get started doing research in my lab.
+</p>
+
+<h3>Communication</h3>
+
+<p>
+    The Brown Visual Computing Group maintains a Slack team that we use (in lieu of email) for most internal communication about research, meetings, events, etc. Ask me to add you to this team, so you can stay in the loop.
+
+    We have group meetings every other week, currently on Mondays. More details are available on Slack.
+</p>
+
+<h3>The Department's Computing Infrastructure</h3>
+
+<p>
+    The Brown CS department provides fairly extensive, well-maintined compute resources. This is all documented exhaustively on the <a target='_blank' href="https://cs.brown.edu/about/system/">Brown CS website</a>, but here I've collected some of the most important bits to focus on:
+    
+    <ul>
+        <li>
+            <strong>SSH access:</strong> You should set up SSH access to the department machines ASAP. This will require you to have an ssh public key on the department file system. TStaff can help you with this; send mail to <a href='mailto:problem@cs.brown.eu'>problem@cs</a>. From outside the CS department network, you'll need to use <code>ssh username@ssh.cs.brown.edu</code> to connect. <code>ssh.cs.brown.edu</code> is a gateway server that redirects you to an actual machine on the department network. If you're already on the department network, you can get a faster connection by directly ssh'ing into such a machine, e.g. <code>ssh username@cslab4a.cs.brown.edu</code>.
+        </li>
+
+        <li>
+            <strong>Using the grid:</strong> The department maintains a high-performance compute cluster that contains, among other things, quite a few GPUs. Instructions for using this are available on <a target='_blank' href='https://cs.brown.edu/about/system/services/hpc/'>the CS department website</a>, and I highly recommend you read them. In addition to what you'll read about there, here are some other nice tricks to be aware of:
+            <ul>
+                <li>
+                    <code>qstat -u \*</code> will show you all the jobs currently running on the grid, which lets you see what resources are in use and which are available. You can also check which GPU nodes are currently in use: <code>qstat -u \* | grep gpu</code>.
+                </li>
+                <li>
+                    <code>qrsh -l gpus=1</code> will connect you to a machine with at least one GPU available, in a temporary interactive session. This is a great way to debug any issues with running your code on the grid before you try and launch a long-running grid job. Be aware that in this interactive sessions, all the machine's GPUs are visible, including the ones that are currently in use by someone else. So you'll need to use the <code>CUDA_VISIBLE_DEVICES</code> environment variable to tell your code which GPU to use. The simplest way to do this is just to prepend <code>CUDA_VISIBLE_DEVICES=integer_gpu_id</code> to whatever command you use to run your code. 
+                </li>
+            </ul>
+        </li
+        >
+        <li>
+            <strong>Data storage:</strong> The department file system has a large volume for storing data. We have a directory on this volume that we use to store large datasets (for e.g. grid nodes to read from when training models). The directory is located at <code>/data/drlab</code>. You'll need to get Tstaff you add you to the <code>cs-drlab</code> group in order to have permissions to read/write this directory; again, send mail to <a href='mailto:problem@cs.brown.eu'>problem@cs</a>.
+        </li>
+    </ul>
+</p>
+
+<h3>Our Lab's Computing Infrastructure</h3>
+
+<p>
+    In addition to the department's machines, we also have some of our own machines that can be used for research. Currently, those machines are:
+
+    <ul>
+        <li>
+            syenite (2017): 6-core i7, 32GB RAM, GTX 1080 Ti, GTX 980 Ti. Located in CIT 553.
+        </li>
+        <li>
+            alabaster (2018): 6-core i7, 32GB RAM, Titan Xp, GTX 1080 Ti. Located in CIT 553.
+        </li>
+        <li>
+            kajiya (2018): 6-core i7, 32GB RAM, GTX 1080 Ti. Located in the 1st floor lab space. Dual boots Windows.
+        </li>
+    </ul>
+
+    If you need to use one of these machines, contact me or one of my PhD students, and we can create an account for you.
+
+    These machines are on the department's Self-Managed Network, so to connect to one of them you need to use e.g. <code>ssh username@alabaster.smn.cs.brown.edu</code>.
+</p>
+
+<h3>Workflow for Using Our Compute Infrastructure</h3>
+
+<p>
+    Obviously, how you want to work is up to you. What follows is a workflow that's worked well for me for using lab/department machine remotely, so I figured it was worthwhile to write it down and share it with others. What follows applies to Linux lab/department machines, and some of it assumes that you are remote-ing in from a machine with a Linux-y operating system (e.g. Linux, macOS).
+    
+    <ul>
+        <li>
+            <strong>Issuing commands:</strong> I ssh into the remote machine.
+        </li>
+        <li>
+            <strong>Editing code:</strong> I mount the remote machine's filesystem locally, then edit code that lives on that filesystem using an editor installed on my local machine. The easiest way to mount a remote file system is to use SSHFS (you'll likely need to install this on your machine). To get the fastest connection, use these (somewhat arcane) flags: <code>sshfs -o Ciphers=aes128-gcm@openssh.com,Compression=no username@machinename:/ local_mount_directory</code>. This'll mount the root of the remote filesystem to <code>local_mount_directory</code>. 
+        </li>
+        <li>
+            <strong>Viewing files:</strong> While you can use your OS's file explorer/browser for e.g. looking at large numbers of generated images on a remote mounted filesystem, this can be rather slow. As an alternative, we have <a target='_blank' href='https://www.teamviewer.us/'>Teamviewer</a> installed on our lab machines, which can be used to establish a remote desktop connection. Ask me or one of my PhD students for the credentials needed to connect to a given machine. For the department machines, you can use <a target="_blank" href='https://cs.brown.edu/about/system/connecting/fastx/'>FastX</a>.
+        </li>
+        <li>
+            <strong>Working from off campus:</strong> You need be on the Brown CS network for any of the above to work (since neither the department machines nor our lab's self-managed machines are visible to the internet at large). From off campus, you'll need get on to the Brown CS network via VPN. <a target='_blank' href='https://cs.brown.edu/about/system/connecting/openvpn/'>This page</a> has instructions on how to do that.
+        </li>
+    </ul>
+</p>
+
+<h3>Our Physical Lab Space</h3>
+
+<p>
+    The Visual Computing Lab is our physical lab space and is located on the first floor of the CIT. It's a spacious room with plenty of seating and a dedicated room for virtual reality. Some of our lab machines are also located there. To get card swipe access to the lab, email <a href='mailto:ljm@cs.brown.edu'>Lisa Manekofsky</a> and cc me (so I can verify to Lisa that you should have access).
+</p>
+
+<br/>
