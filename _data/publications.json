@@ -1,6 +1,17 @@
 [
 
 {
+	"id": "tikz",
+	"title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
+	"authors": ["Kevin Ellis", "Daniel Ritchie", "Armando Solar-Lezama", "Joshua B. Tenenbaum"],
+	"venue": "NIPS 2018 (spotlight)",
+	"date": "2018-12-03",
+	"links" : [
+		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1707.09627"}
+	]
+},
+
+{
 	"id": "ganimorph",
 	"title": "Improving Shape Deformation in Unsupervised Image-to-Image Translation",
 	"authors": ["Aaron Gokaslan", "Vivek Ramanujan", "Daniel Ritchie", "Kwang In Kim", "James Tompkin"],
@@ -58,17 +69,6 @@
 	"links" : [
 		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1711.08598"},
 		{"type": "link", "name": "code", "target": "https://github.com/maximevo/An-Improved-Training-Procedure-for-Neural-Autoregressive-Data-Completion"}
-	]
-},
-
-{
-	"id": "tikz",
-	"title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
-	"authors": ["Kevin Ellis", "Daniel Ritchie", "Armando Solar-Lezama", "Joshua B. Tenenbaum"],
-	"venue": "arXiv 2017",
-	"date": "2017-08-01",
-	"links" : [
-		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1707.09627"}
 	]
 },
 
