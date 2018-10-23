@@ -37,6 +37,9 @@ layout: post
                 <li>
                     <code>qrsh -l gpus=1</code> will connect you to a machine with at least one GPU available, in a temporary interactive session. This is a great way to debug any issues with running your code on the grid before you try and launch a long-running grid job. Be aware that in this interactive sessions, all the machine's GPUs are visible, including the ones that are currently in use by someone else. So you'll need to use the <code>CUDA_VISIBLE_DEVICES</code> environment variable to tell your code which GPU to use. The simplest way to do this is just to prepend <code>CUDA_VISIBLE_DEVICES=integer_gpu_id</code> to whatever command you use to run your code. 
                 </li>
+                <li>
+                    Take a look at <a target='_blank' href='misc/grid_example.sh'>this file</a> for an example grid script that can be used with <code>qsub</code> (modified from a script written by Yifan Liu).
+                </li>
             </ul>
         </li
         >
