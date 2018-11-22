@@ -4,7 +4,7 @@
 	"id": "tikz",
 	"title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
 	"authors": ["Kevin Ellis", "Daniel Ritchie", "Armando Solar-Lezama", "Joshua B. Tenenbaum"],
-	"venue": "NIPS 2018 (spotlight)",
+	"venue": "NeurIPS 2018 (spotlight)",
 	"date": "2018-12-03",
 	"links" : [
 		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1707.09627"}
