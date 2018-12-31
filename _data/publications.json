@@ -1,6 +1,17 @@
 [
 
 {
+	"id": "scene2prog",
+	"title": "Learning to Describe Scenes with Programs",
+	"authors": ["Yunchao Liu","Zheng Wu", "Daniel Ritchie", "William T. Freeman", "Joshua B. Tenenbaum", "Jiajun Wu"],
+	"venue": "ICLR 2019",
+	"date": "2019-05-06",
+	"links" : [
+		{"type": "link", "name": "OpenReview", "target": "https://openreview.net/forum?id=SyNPk2R9K7"}
+	]
+},
+
+{
 	"id": "tikz",
 	"title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
 	"authors": ["Kevin Ellis", "Daniel Ritchie", "Armando Solar-Lezama", "Joshua B. Tenenbaum"],
