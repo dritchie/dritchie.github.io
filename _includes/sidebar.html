@@ -44,7 +44,7 @@
 	<div class='sidebarheader'>Teaching</div>
 
 	{% assign sorted_classes = site.data.teaching | sort: 'startdate' | reverse %}
-	{% for class in sorted_classes limit: 3 %}
+	{% for class in sorted_classes limit: 4 %}
 
 		<div class='teachingitem'>
 			<div class='teachingterm'>{{ class.term }}</div>
