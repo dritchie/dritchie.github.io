@@ -126,5 +126,12 @@
 			"event": "PROBPROG 2018",
 			"location": "Boston, MA"
 		},
+
+		{
+			"startdate": "2019-04-14",
+			"enddate": "2019-04-14",
+			"event": "New England Symposium on Graphics",
+			"location": "Cambridge, MA"
+		}
 	]
 }
