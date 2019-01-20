@@ -1,5 +1,16 @@
 [
 
+	{
+		"id": "fastsynth",
+		"title": "Fast and Flexible Indoor Scene Synthesis via Deep Convolutional Generative Models",
+		"authors": ["Daniel Ritchie", "Kai Wang", "Yu-an Lin"],
+		"venue": "arXiv preprint",
+		"date": "2018-11-28",
+		"links" : [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1811.12463"}
+		]
+	},
+
 {
 	"id": "scene2prog",
 	"title": "Learning to Describe Scenes with Programs",
