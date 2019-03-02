@@ -4,8 +4,8 @@
 		"id": "fastsynth",
 		"title": "Fast and Flexible Indoor Scene Synthesis via Deep Convolutional Generative Models",
 		"authors": ["Daniel Ritchie", "Kai Wang", "Yu-an Lin"],
-		"venue": "arXiv preprint",
-		"date": "2018-11-28",
+		"venue": "CVPR 2019",
+		"date": "2019-06-16",
 		"links" : [
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1811.12463"}
 		]
@@ -26,8 +26,9 @@
 	"id": "tikz",
 	"title": "Learning to Infer Graphics Programs from Hand-Drawn Images",
 	"authors": ["Kevin Ellis", "Daniel Ritchie", "Armando Solar-Lezama", "Joshua B. Tenenbaum"],
-	"venue": "NeurIPS 2018 (spotlight)",
+	"venue": "NeurIPS 2018",
 	"date": "2018-12-03",
+	"award": "Spotlight Presentation",
 	"links" : [
 		{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/1707.09627"}
 	]
