@@ -146,6 +146,12 @@
 			"enddate": "2019-06-21",
 			"event": "CVPR 2019",
 			"location": "Long Beach, CA"
+		},
+
+		{
+			"startdate": "2019-06-23",
+			"enddate": "2019-07-06",
+			"event": "Vacation"
 		}
 	]
 }
