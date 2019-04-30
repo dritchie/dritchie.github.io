@@ -95,6 +95,18 @@
 
 </div>
 
+<div class='sidebaritem' id='talks'>
+	<div class='sidebarheader'>Talks</div>
+	{% for talk in site.data.talks %}
+
+		<div class='resource'>
+			<a class='resourcelink' href='{{ talk.link }}' target='_blank'>{{ talk.title }}</a>
+			<p>{{ talk.venue }}</p>
+		</div>
+
+	{% endfor %}
+</div>
+
 <div class='sidebaritem' id='resources'>
 	<div class='sidebarheader'>Resources</div>
 	{% for resource in site.data.resources %}
