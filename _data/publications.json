@@ -1,4 +1,14 @@
 [
+	{
+		"id": "graphsynth",
+		"title": "PlanIT: Planning and Instantiating Indoor Scenes with Relation Graph and Spatial Prior Networks",
+		"authors": ["Kai Wang", "Yu-an Lin", "Ben Weissmann", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
+		"venue": "SIGGRAPH 2019",
+		"date": "2019-07-31",
+		"links" : [
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1CJCM6EQyeUWwxdk6tl8cVxEIhV7s3DoA/view?usp=sharing"}
+		]
+	},
 
 	{
 		"id": "fastsynth",
