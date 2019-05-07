@@ -3,5 +3,11 @@
 		"name": "Three-phase Paper Writing",
 		"link": "/2017/10/12/three-phase-paper-writing.html",
 		"description": "An algorithm for writing technical papers"
+	},
+
+	{
+		"name": "Learning Generative Models of 3D Structures",
+		"link": "https://3dstructgen.github.io/",
+		"description": "Slides from our Eurographics 2019 Tutorial"
 	}
 ]
