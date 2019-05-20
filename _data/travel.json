@@ -152,6 +152,13 @@
 			"startdate": "2019-06-23",
 			"enddate": "2019-07-06",
 			"event": "Vacation"
+		},
+
+		{
+			"startdate": "2019-07-13",
+			"enddate": "2019-07-30",
+			"event": "Visual Computing Summer School",
+			"location": "Shenzhen, China"
 		}
 	]
 }
