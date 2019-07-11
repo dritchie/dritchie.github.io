@@ -156,9 +156,23 @@
 
 		{
 			"startdate": "2019-07-13",
-			"enddate": "2019-07-30",
+			"enddate": "2019-07-19",
 			"event": "Visual Computing Summer School",
 			"location": "Shenzhen, China"
+		},
+
+		{
+			"startdate": "2019-07-25",
+			"enddate": "2019-07-27",
+			"event": "SIGGRAPH Asia PC Meeting",
+			"location": "Los Angeles, CA"
+		},
+
+		{
+			"startdate": "2019-07-28",
+			"enddate": "2019-08-02",
+			"event": "SIGGRAPH",
+			"location": "Los Angeles, CA"
 		}
 	]
 }
