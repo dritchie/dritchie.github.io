@@ -6,7 +6,8 @@
 		"venue": "SIGGRAPH 2019",
 		"date": "2019-07-31",
 		"links" : [
-			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1CJCM6EQyeUWwxdk6tl8cVxEIhV7s3DoA/view?usp=sharing"}
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1CJCM6EQyeUWwxdk6tl8cVxEIhV7s3DoA/view?usp=sharing"},
+			{"type": "link", "name": "fast forward video", "target": "https://youtu.be/qgYY-oCPV3I"}
 		]
 	},
 
