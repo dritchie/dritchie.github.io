@@ -1,5 +1,17 @@
 [
 	{
+		"id": "unityCompat",
+		"title": "Learning Style Compatibility Between Objects in a Real-World 3D Asset Database",
+		"authors": ["Yifan Liu", "Ruolan Tang", "Daniel Ritchie"],
+		"venue": "Pacific Graphics 2019",
+		"date": "2019-09-02",
+		"links" : [
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/open?id=1r8Lmos2TW_ef8dg4jg7WwYW7tf_XxsBH"},
+			{"type": "link", "name": "supplemental", "target": "https://drive.google.com/open?id=17U8NxNJguP-Ty8oLpZNiP9QmqAxnVUsu"}
+		]
+	},
+
+	{
 		"id": "graphsynth",
 		"title": "PlanIT: Planning and Instantiating Indoor Scenes with Relation Graph and Spatial Prior Networks",
 		"authors": ["Kai Wang", "Yu-an Lin", "Ben Weissmann", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
