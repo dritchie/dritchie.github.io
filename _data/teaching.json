@@ -1,5 +1,13 @@
 [
 	{
+		"startdate": "2019-09-04",
+		"term": "Fall 2019",
+		"number": "CSCI 1470/2470",
+		"name": "Deep Learning",
+		"link": "http://cs.brown.edu/courses/csci1470/"
+	},
+
+	{
 		"startdate": "2019-01-23",
 		"term": "Spring 2019",
 		"number": "CSCI 2240",
