@@ -173,6 +173,13 @@
 			"enddate": "2019-08-02",
 			"event": "SIGGRAPH",
 			"location": "Los Angeles, CA"
+		},
+
+		{
+			"startdate": "2019-10-16",
+			"enddate": "2019-10-17",
+			"event": "Pacific Graphics",
+			"location": "Seoul, South Korea"
 		}
 	]
 }
