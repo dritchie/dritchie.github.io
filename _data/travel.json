@@ -180,6 +180,13 @@
 			"enddate": "2019-10-17",
 			"event": "Pacific Graphics",
 			"location": "Seoul, South Korea"
+		},
+
+		{
+			"startdate": "2019-12-07",
+			"enddate": "2019-12-11",
+			"event": "NeurIPS",
+			"location": "Vancouver, BC"
 		}
 	]
 }
