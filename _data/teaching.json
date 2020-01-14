@@ -1,5 +1,13 @@
 [
 	{
+		"startdate": "2020-01-28",
+		"term": "Spring 2020",
+		"number": "CSCI 2240",
+		"name": "Interactive Computer Graphics",
+		"link": "https://dritchie.github.io/csci2240"
+	},
+
+	{
 		"startdate": "2019-09-04",
 		"term": "Fall 2019",
 		"number": "CSCI 1470/2470",
@@ -12,7 +20,7 @@
 		"term": "Spring 2019",
 		"number": "CSCI 2240",
 		"name": "Interactive Computer Graphics",
-		"link": "https://dritchie.github.io/csci2240/"
+		"link": "https://dritchie.github.io/csci2240/archive/2019/"
 	},
 
 	{
