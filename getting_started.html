@@ -96,6 +96,11 @@ layout: post
     These machines are on the department's Self-Managed Network, so to connect to one of them you need to use e.g. <code>ssh username@alabaster.smn.cs.brown.edu</code>.
 </p>
 
+<p>
+    <strong>NOTE: NEVER USE <code>apt</code> TO INSTALL ANYTHING NVIDIA OR CUDA RELATED!</strong>
+    Our lab machines all use the official NVIDIA driver releases, which are incompatible with the <code>nvidia-*</code> packages that Ubuntu distributes via <code>apt</code>. If you do you this, you <i>will</i> break the NVIDIA driver on the machine, which means you (or someone else) will need to purge and reinstall everything graphics driver-related, which is a pain in the neck.
+</p>
+
 <h3>Workflow for Using Our Compute Infrastructure</h3>
 
 <p>
