@@ -187,6 +187,27 @@
 			"enddate": "2019-12-11",
 			"event": "NeurIPS",
 			"location": "Vancouver, BC"
+		},
+
+		{
+			"startdate": "2020-03-10",
+			"enddate": "2020-03-10",
+			"event": "MIT Vision Seminar",
+			"location": "Cambridge, MA"
+		},
+
+		{
+			"startdate": "2020-05-25",
+			"enddate": "2020-05-29",
+			"event": "Eurographics",
+			"location": "Norrköping, Sweden"
+		},
+
+		{
+			"startdate": "2020-06-14",
+			"enddate": "2020-06-19",
+			"event": "CVPR",
+			"location": "Seattle, WA"
 		}
 	]
 }
