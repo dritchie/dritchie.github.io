@@ -1,5 +1,15 @@
 [
 	{
+		"id": "eg2020star",
+		"title": "Learning Generative Models of 3D Structures",
+		"authors": ["Siddhartha Chaudhuri", "Daniel Ritchie", "Jiajun Wu", "Kai Xu", "Hao Zhang"],
+		"venue": "Eurographics 2020 STAR",
+		"date": "2020-05-24",
+		"links" : [
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/open?id=1cv97glyolTtB7NzUucft7z4c2iF29lIi"}
+		]
+	},
+	{
 		"id": "unityCompat",
 		"title": "Learning Style Compatibility Between Objects in a Real-World 3D Asset Database",
 		"authors": ["Yifan Liu", "Ruolan Tang", "Daniel Ritchie"],
@@ -90,7 +100,7 @@
 	"date": "2018-04-06",
 	"links" : [
 		{"type": "pdf"},
-		{"type": "link", "name": "supplemental", "target": "https://www.dropbox.com/s/zj1dl355f4wuas5/procmod-learn_supplemental.zip?dl=0"},
+		{"type": "link", "name": "supplemental", "target": "https://www.dropbox.com/s/zj1dl355f4wuas5/procmod-learn_supplemental.zip?dl=0"}
 	]
 },
 
