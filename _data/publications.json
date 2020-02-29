@@ -1,5 +1,15 @@
 [
 	{
+		"id": "ganhopper",
+		"title": "GANHopper: Multi-Hop GAN for Unsupervised Image-to-Image Translation",
+		"authors": ["Wallace Lira", "Johannes Merz", "Daniel Ritchie", "Daniel Cohen-Or", "Hao Zhang"],
+		"venue": "arXiv preprint",
+		"date": "2020-02-29",
+		"links" : [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2002.10102"}
+		]
+	},
+	{
 		"id": "eg2020star",
 		"title": "Learning Generative Models of 3D Structures",
 		"authors": ["Siddhartha Chaudhuri", "Daniel Ritchie", "Jiajun Wu", "Kai Xu", "Hao Zhang"],
