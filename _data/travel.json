@@ -197,17 +197,17 @@
 		},
 
 		{
+			"startdate": "2020-04-23",
+			"enddate": "2020-04-25",
+			"event": "PROBPROG 2020",
+			"location": "Cambridge, MA"
+		},
+
+		{
 			"startdate": "2020-05-25",
 			"enddate": "2020-05-29",
 			"event": "Eurographics",
 			"location": "Norrköping, Sweden"
-		},
-
-		{
-			"startdate": "2020-06-14",
-			"enddate": "2020-06-19",
-			"event": "CVPR",
-			"location": "Seattle, WA"
 		}
 	]
 }
