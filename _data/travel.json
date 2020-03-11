@@ -190,24 +190,17 @@
 		},
 
 		{
-			"startdate": "2020-03-10",
-			"enddate": "2020-03-10",
-			"event": "MIT Vision Seminar",
-			"location": "Cambridge, MA"
+			"startdate": "2020-06-14",
+			"enddate": "2020-06-19",
+			"event": "CVPR",
+			"location": "Seattle, WA"
 		},
 
 		{
-			"startdate": "2020-04-23",
-			"enddate": "2020-04-25",
-			"event": "PROBPROG 2020",
-			"location": "Cambridge, MA"
-		},
-
-		{
-			"startdate": "2020-05-25",
-			"enddate": "2020-05-29",
-			"event": "Eurographics",
-			"location": "Norrköping, Sweden"
+			"startdate": "2020-07-19",
+			"enddate": "2020-07-23",
+			"event": "SIGGRAPH",
+			"location": "Washington, D.C."
 		}
 	]
 }
