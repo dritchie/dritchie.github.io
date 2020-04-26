@@ -6,6 +6,7 @@
 	<div class='sidebarheader'>Affiliations</div>
 	<div><a target='_blank' href='http://brown.edu'>Brown University</a></div>
 	<div><a target='_blank' href='http://cs.brown.edu'>Computer Science Department</a></div>
+	<div><a target='_blank' href='http://visual.cs.brown.edu'>Brown Visual Computing</a></div>
 </div>
 
 <div class='sidebaritem' id='contactinfo'>
@@ -58,7 +59,9 @@
 <div class='sidebaritem' id='travel'>
 	<div class='sidebarheader'>Travel</div>
 
-	{% assign currdate_parts = site.time | date_to_xmlschema | split: 'T' %}
+	All travel postponed due to the COVID-19 pandemic
+
+	<!-- {% assign currdate_parts = site.time | date_to_xmlschema | split: 'T' %}
 	{% assign currdate = currdate_parts[0] %}
 
 	{% assign sortedtravelitems = site.data.travel.items | sort: 'startdate' %}
@@ -91,7 +94,7 @@
 			</div>
 		{% endif %}
 
-	{% endfor %}
+	{% endfor %} -->
 
 </div>
 
