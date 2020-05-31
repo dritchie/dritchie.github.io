@@ -16,7 +16,8 @@
 		"venue": "Eurographics 2020 STAR",
 		"date": "2020-05-24",
 		"links" : [
-			{"type": "link", "name": "paper", "target": "https://drive.google.com/open?id=1cv97glyolTtB7NzUucft7z4c2iF29lIi"}
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/open?id=1cv97glyolTtB7NzUucft7z4c2iF29lIi"},
+			{"type": "link", "name": "presentation video", "target": "https://www.youtube.com/watch?v=AoiEm7oOjpU&feature=youtu.be"}
 		]
 	},
 	{
