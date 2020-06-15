@@ -9,5 +9,11 @@
 		"name": "Learning Generative Models of 3D Structures",
 		"link": "https://3dstructgen.github.io/",
 		"description": "Slides from our Eurographics 2019 Tutorial"
+	},
+
+	{
+		"name": "Learning 3D Generative Models",
+		"link": "https://learn3dgen.github.io/",
+		"description": "Website for our CVPR 2020 Workshop"
 	}
 ]
