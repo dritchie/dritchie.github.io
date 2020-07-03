@@ -3,8 +3,8 @@
 		"id": "ganhopper",
 		"title": "GANHopper: Multi-Hop GAN for Unsupervised Image-to-Image Translation",
 		"authors": ["Wallace Lira", "Johannes Merz", "Daniel Ritchie", "Daniel Cohen-Or", "Hao Zhang"],
-		"venue": "arXiv preprint",
-		"date": "2020-02-29",
+		"venue": "ECCV 2020",
+		"date": "2020-07-02",
 		"links" : [
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2002.10102"}
 		]
