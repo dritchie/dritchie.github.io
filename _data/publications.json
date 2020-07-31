@@ -1,5 +1,12 @@
 [
 	{
+		"id": "shapeassembly",
+		"title": "ShapeAssembly: Learning to Generate Programs for 3D Shape Structure Synthesis",
+		"authors": ["Russell K. Jones", "Theresa Barton", "Xianghao Xu", "Kai Wang", "Ellen Jiang", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
+		"venue": "SIGGRAPH Asia 2020",
+		"date": "2020-07-30"
+	},
+	{
 		"id": "ganhopper",
 		"title": "GANHopper: Multi-Hop GAN for Unsupervised Image-to-Image Translation",
 		"authors": ["Wallace Lira", "Johannes Merz", "Daniel Ritchie", "Daniel Cohen-Or", "Hao Zhang"],
