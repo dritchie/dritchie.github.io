@@ -4,7 +4,11 @@
 		"title": "ShapeAssembly: Learning to Generate Programs for 3D Shape Structure Synthesis",
 		"authors": ["R. Kenny Jones", "Theresa Barton", "Xianghao Xu", "Kai Wang", "Ellen Jiang", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
 		"venue": "SIGGRAPH Asia 2020",
-		"date": "2020-07-30"
+		"date": "2020-07-30",
+		"links" : [
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1wl3-2WvVuEYsLZUAJHt4EQ9rEHBEHRda/view?usp=sharing"},
+			{"type": "link", "name": "supplemental", "target": "https://drive.google.com/file/d/19R0Hvspc21tIJn3Fw78DfwTIASOfmPec/view?usp=sharing"}
+		]
 	},
 	{
 		"id": "ganhopper",
