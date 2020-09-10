@@ -6,8 +6,8 @@
 		"venue": "SIGGRAPH Asia 2020",
 		"date": "2020-07-30",
 		"links" : [
-			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1wl3-2WvVuEYsLZUAJHt4EQ9rEHBEHRda/view?usp=sharing"},
-			{"type": "link", "name": "supplemental", "target": "https://drive.google.com/file/d/19R0Hvspc21tIJn3Fw78DfwTIASOfmPec/view?usp=sharing"}
+			{"type": "link", "name": "paper", "target": "https://rkjones4.github.io/pdf/shapeAssembly.pdf"},
+			{"type": "link", "name": "project page", "target": "https://rkjones4.github.io/shapeAssembly.html"}
 		]
 	},
 	{
