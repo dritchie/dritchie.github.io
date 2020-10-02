@@ -1,5 +1,19 @@
 [
 	{
+		"id": "maps",
+		"title": "Motion Annotation Programs: A Scalable Approach to Annotating Kinematic Articulations in Large 3D Shape Collections",
+		"authors": ["Xianghao Xu", "David Charatan", "Sonia Raychaudhuri", "Hanxiao Jiang", "Mae Heitmann", "Vladimir Kim", "Siddhartha Chaudhuri", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
+		"venue": "3DV 2020",
+		"date": "2020-10-02"
+	},
+	{
+		"id": "sft",
+		"title": "Shape from Tracing: Towards Reconstructing 3D Object Geometry and SVBRDF Material from Images via Differentiable Path Tracing",
+		"authors": ["Purvi Goel", "Loudon Cohen", "James Guesman", "Vikas Thamizharasan", "James Tompkin", "Daniel Ritchie"],
+		"venue": "3DV 2020",
+		"date": "2020-10-02"
+	},
+	{
 		"id": "shapeassembly",
 		"title": "ShapeAssembly: Learning to Generate Programs for 3D Shape Structure Synthesis",
 		"authors": ["R. Kenny Jones", "Theresa Barton", "Xianghao Xu", "Kai Wang", "Ellen Jiang", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
