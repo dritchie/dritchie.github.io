@@ -4,14 +4,22 @@
 		"title": "Motion Annotation Programs: A Scalable Approach to Annotating Kinematic Articulations in Large 3D Shape Collections",
 		"authors": ["Xianghao Xu", "David Charatan", "Sonia Raychaudhuri", "Hanxiao Jiang", "Mae Heitmann", "Vladimir Kim", "Siddhartha Chaudhuri", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
 		"venue": "3DV 2020",
-		"date": "2020-10-02"
+		"date": "2020-10-02",
+		"links" : [
+			{"type": "link", "name": "paper", "target": "http://visual.cs.brown.edu/projects/articulations-webpage/articulations_3dv2020.pdf"},
+			{"type": "link", "name": "project page", "target": "https://visual.cs.brown.edu/articulations"}
+		]
 	},
 	{
 		"id": "sft",
 		"title": "Shape from Tracing: Towards Reconstructing 3D Object Geometry and SVBRDF Material from Images via Differentiable Path Tracing",
 		"authors": ["Purvi Goel", "Loudon Cohen", "James Guesman", "Vikas Thamizharasan", "James Tompkin", "Daniel Ritchie"],
 		"venue": "3DV 2020",
-		"date": "2020-10-02"
+		"date": "2020-10-02",
+		"links" : [
+			{"type": "link", "name": "paper", "target": "http://visual.cs.brown.edu/projects/shapefromtracing-webpage/shape_from_tracing__3DV_2020.pdf"},
+			{"type": "link", "name": "project page", "target": "https://visual.cs.brown.edu/shapefromtracing"}
+		]
 	},
 	{
 		"id": "shapeassembly",
