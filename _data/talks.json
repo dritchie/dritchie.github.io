@@ -1,12 +1,19 @@
 [
 	{
-		"title": "Probabilistic Programming for Computer Graphics",
-		"link": "https://www.youtube.com/watch?v=QprVu_pLT4w",
-		"venue": "PROBPROG 2018"
+		"title": "Neurosymbolic Generative Models for Structured 3D Content",
+		"link": "https://www.youtube.com/watch?v=XPJhe7hy_vc&ab_channel=3DGVSeminar",
+		"venue": "3D Geometry and Vision (3DGV) Seminar"
 	},
+
 	{
 		"title": "We Need a Deeper Network",
 		"link": "https://youtu.be/ZwVa4MtPstw",
 		"venue": "Brown CSCI 1470/2470 Fall 2020 end-of-semester song"
+	},
+
+	{
+		"title": "Probabilistic Programming for Computer Graphics",
+		"link": "https://www.youtube.com/watch?v=QprVu_pLT4w",
+		"venue": "PROBPROG 2018"
 	}
 ]
