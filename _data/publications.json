@@ -1,5 +1,12 @@
 [
 	{
+		"id": "zonegraphs",
+		"title": "Inferring CAD Modeling Sequences using Zone Graphs",
+		"authors": ["Xianghao Xu", "Wenzhe Peng", "Chin-Yi Cheng", "Karl D. D. Willis", "Daniel Ritchie"],
+		"venue": "CVPR 2021",
+		"date": "2021-06-18"
+	},
+	{
 		"id": "maps",
 		"title": "Motion Annotation Programs: A Scalable Approach to Annotating Kinematic Articulations in Large 3D Shape Collections",
 		"authors": ["Xianghao Xu", "David Charatan", "Sonia Raychaudhuri", "Hanxiao Jiang", "Mae Heitmann", "Vladimir Kim", "Siddhartha Chaudhuri", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
