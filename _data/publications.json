@@ -4,7 +4,11 @@
 		"title": "Inferring CAD Modeling Sequences using Zone Graphs",
 		"authors": ["Xianghao Xu", "Wenzhe Peng", "Chin-Yi Cheng", "Karl D. D. Willis", "Daniel Ritchie"],
 		"venue": "CVPR 2021",
-		"date": "2021-06-18"
+		"date": "2021-06-18",
+		"links":  [
+			{"type": "link", "name": "project page", "target": "http://pwz.mit.edu/projects/ZG/"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2104.03900"}
+		]
 	},
 	{
 		"id": "maps",
