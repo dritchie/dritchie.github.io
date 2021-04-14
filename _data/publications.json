@@ -1,5 +1,16 @@
 [
 	{
+		"id": "shapemod",
+		"title": "ShapeMOD: Macro Operation Discovery for 3D Shape Programs",
+		"authors": ["R. Kenny Jones", "David Charatan", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
+		"venue": "arXiv preprint",
+		"date": "2021-08-14",
+		"links":  [
+			{"type": "link", "name": "project page", "target": "https://rkjones4.github.io/shapeMOD.html"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2104.06392"}
+		]
+	},
+	{
 		"id": "zonegraphs",
 		"title": "Inferring CAD Modeling Sequences using Zone Graphs",
 		"authors": ["Xianghao Xu", "Wenzhe Peng", "Chin-Yi Cheng", "Karl D. D. Willis", "Daniel Ritchie"],
