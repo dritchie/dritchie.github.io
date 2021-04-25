@@ -3,7 +3,7 @@
 		"id": "shapemod",
 		"title": "ShapeMOD: Macro Operation Discovery for 3D Shape Programs",
 		"authors": ["R. Kenny Jones", "David Charatan", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
-		"venue": "arXiv preprint",
+		"venue": "SIGGRAPH 2021",
 		"date": "2021-08-14",
 		"links":  [
 			{"type": "link", "name": "project page", "target": "https://rkjones4.github.io/shapeMOD.html"},
