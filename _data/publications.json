@@ -22,6 +22,16 @@
 		]
 	},
 	{
+		"id": "lest",
+		"title": "Learning to Infer Shape Programs Using Latent Execution Self Training",
+		"authors": ["Homer Walke", "R. Kenny Jones", "Daniel Ritchie"],
+		"venue": "arXiv preprint",
+		"date": "2020-11-25",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2011.13045"}
+		]
+	},
+	{
 		"id": "maps",
 		"title": "Motion Annotation Programs: A Scalable Approach to Annotating Kinematic Articulations in Large 3D Shape Collections",
 		"authors": ["Xianghao Xu", "David Charatan", "Sonia Raychaudhuri", "Hanxiao Jiang", "Mae Heitmann", "Vladimir Kim", "Siddhartha Chaudhuri", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
@@ -210,7 +220,7 @@
 	"id": "daipp",
 	"title": "Deep Amortized Inference for Probabilistic Programs",
 	"authors": ["Daniel Ritchie", "Paul Horsfall", "Noah D. Goodman"],
-	"venue": "arXiv 2016",
+	"venue": "arXiv preprint",
 	"date": "2016-10-18",
 	"links" : [
 		{"type": "pdf"},
