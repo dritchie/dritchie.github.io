@@ -1,5 +1,17 @@
 [
 	{
+		"id": "roominoes",
+		"title": "Roominoes: Generating Novel 3D Floor Plans From Existing 3D Rooms",
+		"authors": ["Kai Wang", "Xianghao Xu", "Leon Lei", "Natalie Lindsay", "Selena Ling", "Angel X. Chang",
+			"Manolis Savva", "Daniel Ritchie"],
+		"venue": "SGP 2021",
+		"date": "2021-07-12",
+		"links":  [
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1aSePGciFxnLRF4dhJynmNNctVfndIRpE/view?usp=sharing"},
+			{"type": "link", "name": "talk", "target": "https://www.youtube.com/watch?v=GBzpgLPP5VY&ab_channel=KaiWang"}
+		]
+	},
+	{
 		"id": "shapemod",
 		"title": "ShapeMOD: Macro Operation Discovery for 3D Shape Programs",
 		"authors": ["R. Kenny Jones", "David Charatan", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
