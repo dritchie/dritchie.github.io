@@ -1,5 +1,17 @@
 [
 	{
+		"name": "exploreCSR: Socially-Reponsible AI for Computational Creativity",
+		"link": "https://explorecsr.cs.brown.edu/ai/",
+		"description": "Website for our undergrad research experience progoram (in partnership with Google Research)"
+	},
+
+	{
+		"name": "Learning to Generate 3D Shapes and Scenes",
+		"link": "https://learn3dg.github.io/",
+		"description": "Website for our CVPR 2021 Workshop"
+	},
+
+	{
 		"name": "Learning 3D Generative Models",
 		"link": "https://learn3dgen.github.io/",
 		"description": "Website for our CVPR 2020 Workshop"
