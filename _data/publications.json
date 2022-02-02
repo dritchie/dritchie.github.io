@@ -1,5 +1,15 @@
 [
 	{
+		"id": "ham",
+		"title": "Learning to Infer Kinematic Hierarchies for Novel Object Instances",
+		"authors": ["Hameed Abdul-Rashid", "Miles Freeman", "Ben Abbatematteo", "George Konidaris", "Daniel Ritchie"],
+		"venue": "ICRA 2022",
+		"date": "2022-05-23",
+		"links": [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2110.07911"}
+		]
+	},
+	{
 		"id": "roominoes",
 		"title": "Roominoes: Generating Novel 3D Floor Plans From Existing 3D Rooms",
 		"authors": ["Kai Wang", "Xianghao Xu", "Leon Lei", "Natalie Lindsay", "Selena Ling", "Angel X. Chang",
