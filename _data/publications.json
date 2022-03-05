@@ -1,5 +1,25 @@
 [
 	{
+		"id": "ngsp",
+		"title": "The Neurally-Guided Shape Parser: Grammar-based Labeling of 3D Shape Regions with Approximate Inference",
+		"authors": ["R. Kenny Jones", "Aalia Habib", "Rana Hanocka", "Daniel Ritchie"],
+		"venue": "CVPR 2022",
+		"date": "2022-06-19",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2106.12026"}
+		]
+	},
+	{
+		"id": "plad",
+		"title": "PLAD: Learning to Infer Shape Programs with Pseudo-Labels and Approximate Distributions",
+		"authors": ["R. Kenny Jones", "Homer Walke", "Daniel Ritchie"],
+		"venue": "CVPR 2022",
+		"date": "2022-06-19",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2011.13045"}
+		]
+	},
+	{
 		"id": "ham",
 		"title": "Learning to Infer Kinematic Hierarchies for Novel Object Instances",
 		"authors": ["Hameed Abdul-Rashid", "Miles Freeman", "Ben Abbatematteo", "George Konidaris", "Daniel Ritchie"],
@@ -41,16 +61,6 @@
 		"links":  [
 			{"type": "link", "name": "project page", "target": "http://pwz.mit.edu/projects/ZG/"},
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2104.03900"}
-		]
-	},
-	{
-		"id": "lest",
-		"title": "Learning to Infer Shape Programs Using Latent Execution Self Training",
-		"authors": ["Homer Walke", "R. Kenny Jones", "Daniel Ritchie"],
-		"venue": "arXiv preprint",
-		"date": "2020-11-25",
-		"links":  [
-			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2011.13045"}
 		]
 	},
 	{
