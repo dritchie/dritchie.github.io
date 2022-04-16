@@ -190,17 +190,23 @@
 		},
 
 		{
-			"startdate": "2020-06-14",
-			"enddate": "2020-06-19",
-			"event": "CVPR",
-			"location": "Seattle, WA"
+			"startdate": "2022-05-15",
+			"enddate": "2022-05-25",
+			"event": "Vacation"
 		},
 
 		{
-			"startdate": "2020-07-19",
-			"enddate": "2020-07-23",
+			"startdate": "2022-06-18",
+			"enddate": "2022-06-25",
+			"event": "CVPR",
+			"location": "New Orleans, LA"
+		},
+
+		{
+			"startdate": "2022-08-07",
+			"enddate": "2022-08-12",
 			"event": "SIGGRAPH",
-			"location": "Washington, D.C."
+			"location": "Vancouver, BC"
 		}
 	]
 }
