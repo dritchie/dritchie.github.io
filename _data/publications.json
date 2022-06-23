@@ -17,6 +17,7 @@
 		"venue": "CVPR 2022",
 		"date": "2022-06-19",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://rkjones4.github.io/ngsp.html"},
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2106.12026"}
 		]
 	},
@@ -27,6 +28,7 @@
 		"venue": "CVPR 2022",
 		"date": "2022-06-19",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://rkjones4.github.io/plad.html"},
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2011.13045"}
 		]
 	},
