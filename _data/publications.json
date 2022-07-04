@@ -1,5 +1,15 @@
 [
 	{
+		"id": "spsm",
+		"title": "The Shape Part Slot Machine: Contact-based Reasoning for Generating 3D Shapes from Parts",
+		"authors": ["Kai Wang", "Paul Guerrero", "Vladimir Kim", "Siddhartha Chaudhuri", "Minhyuk Sung", "Daniel Ritchie"],
+		"venue": "ECCV 2022",
+		"date": "2022-10-23",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2112.00584"}
+		]
+	},
+	{
 		"id": "unsupmotion",
 		"title": "Unsupervised Kinematic Motion Detection for Part-segmented 3D Shape Collections",
 		"authors": ["Xianghao Xu", "Yifan Ruan", "Srinath Sridhar", "Daniel Ritchie"],
