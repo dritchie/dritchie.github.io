@@ -1,5 +1,13 @@
 [
 	{
+		"startdate": "2022-09-07",
+		"term": "Fall 2021",
+		"number": "CSCI 1230",
+		"name": "Introduction to Computer Graphics",
+		"link": "https://csci1230.graphics"
+	},
+
+	{
 		"startdate": "2022-01-26",
 		"term": "Spring 2022",
 		"number": "CSCI 2240",
@@ -12,7 +20,7 @@
 		"term": "Fall 2021",
 		"number": "CSCI 1230",
 		"name": "Introduction to Computer Graphics",
-		"link": "https://csci1230.graphics"
+		"link": "http://cs.brown.edu/courses/cs123/archive/2021/"
 	},
 
 	{
