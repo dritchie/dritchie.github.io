@@ -1,5 +1,10 @@
 [
 	{
+		"title": "Learning to Represent Shapes with Programs",
+		"link": "http://school.geometryprocessing.org/summerschool-2022/index.html#course3",
+		"venue": "SGP 2022 Summer School"
+	},
+	{
 		"title": "Neurosymbolic Generative Models for Structured 3D Content",
 		"link": "https://www.youtube.com/watch?v=XPJhe7hy_vc&ab_channel=3DGVSeminar",
 		"venue": "3D Geometry and Vision (3DGV) Seminar"
