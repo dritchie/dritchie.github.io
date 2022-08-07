@@ -1,5 +1,10 @@
 [
 	{
+		"name": "The SIGGRAPH Logo Gallery",
+		"link": "http://siggraph-logo.gallery/",
+		"description": "An interactive gallery of paper figures featuring the SIGGRAPH name and/or logo"
+	},
+	{
 		"name": "Optimeet",
 		"link": "https://github.com/dritchie/optimeet",
 		"description": "A tool for coordinated scheduling of multiple meetings"
