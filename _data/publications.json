@@ -1,5 +1,15 @@
 [
 	{
+		"id": "shred",
+		"title": "SHRED: 3D Shape Region Decomposition with Learned Local Operations",
+		"authors": ["R. Kenny Jones", "Aalia Habib", "Daniel Ritchie"],
+		"venue": "SIGGRAPH Asia 2022",
+		"date": "2022-12-06",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2206.03480"}
+		]
+	},
+	{
 		"id": "spsm",
 		"title": "The Shape Part Slot Machine: Contact-based Reasoning for Generating 3D Shapes from Parts",
 		"authors": ["Kai Wang", "Paul Guerrero", "Vladimir Kim", "Siddhartha Chaudhuri", "Minhyuk Sung", "Daniel Ritchie"],
