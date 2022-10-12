@@ -1,5 +1,16 @@
 [
 	{
+		"id": "shapecrafter",
+		"title": "ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model",
+		"authors": ["Rao Fu", "Xiao Zhan", "Yiwen Chen", "Daniel Ritchie", "Srinath Sridhar"],
+		"venue": "NeurIPS 2022",
+		"date": "2022-12-09",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2207.09446"},
+			{"type": "link", "name": "project page", "target": "https://ivl.brown.edu/projects/shapecrafter"}
+		]
+	},
+	{
 		"id": "shred",
 		"title": "SHRED: 3D Shape Region Decomposition with Learned Local Operations",
 		"authors": ["R. Kenny Jones", "Aalia Habib", "Daniel Ritchie"],
