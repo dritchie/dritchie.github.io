@@ -17,7 +17,8 @@
 		"venue": "SIGGRAPH Asia 2022",
 		"date": "2022-12-06",
 		"links":  [
-			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2206.03480"}
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2206.03480"},
+			{"type": "link", "name": "project page", "target": "https://rkjones4.github.io/shred.html"}
 		]
 	},
 	{
