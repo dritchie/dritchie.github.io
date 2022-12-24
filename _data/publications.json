@@ -75,6 +75,16 @@
 		]
 	},
 	{
+		"id": "bodyaware",
+		"title": "Learning Body-Aware 3D Shape Generative Models",
+		"authors": ["Bryce Blinn", "Alexander Ding", "R. Kenny Jones", "Manolis Savva", "Srinath Sridhar", "Daniel Ritchie"],
+		"venue": "arXiv preprint",
+		"date": "2021-12-213",
+		"links": [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2112.07022"}
+		]
+	},
+	{
 		"id": "roominoes",
 		"title": "Roominoes: Generating Novel 3D Floor Plans From Existing 3D Rooms",
 		"authors": ["Kai Wang", "Xianghao Xu", "Leon Lei", "Natalie Lindsay", "Selena Ling", "Angel X. Chang",
