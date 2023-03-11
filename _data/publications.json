@@ -1,5 +1,25 @@
 [
 	{
+		"id": "clipsculptor",
+		"title": "CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language",
+		"authors": ["Aditya Sanghi", "Rao Fu", "Vivian Liu", "Karl D. D. Willis", "Hooman Shayani", "Amir Hosein Khasahmadi", "Srinath Sridhar", "Daniel Ritchie"],
+		"venue": "CVPR 2023",
+		"date": "2023-06-18",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2211.01427"}
+		]
+	},
+	{
+		"id": "unsupassembly",
+		"title": "Unsupervised 3D Shape Reconstruction by Part Retrieval and Assembly",
+		"authors": ["Xianghao Xu", "Paul Guerrero", "Matthew Fisher", "Siddhartha Chaudhuri", "Daniel Ritchie"],
+		"venue": "CVPR 2023",
+		"date": "2023-06-18",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2303.01999"}
+		]
+	},
+	{
 		"id": "shapecrafter",
 		"title": "ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model",
 		"authors": ["Rao Fu", "Xiao Zhan", "Yiwen Chen", "Daniel Ritchie", "Srinath Sridhar"],
