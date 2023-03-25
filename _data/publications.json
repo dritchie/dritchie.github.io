@@ -1,5 +1,15 @@
 [
 	{
+		"id": "neurosymbolicstar",
+		"title": "Neurosymbolic Models for Computer Graphics",
+		"authors": ["Daniel Ritchie", "Paul Guerrero", "R. Kenny Jones", "Niloy Mitra", "Adriana Schulz", "Karl D. D. Willis", "Jiajun Wu"],
+		"venue": "Eurographics 2023 STAR",
+		"date": "2023-05-08",
+		"links":  [
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1g_VpZ80MzkcqZBqj81kBc2VXYKiyzhbO/view?usp=share_link"}
+		]
+	},
+	{
 		"id": "clipsculptor",
 		"title": "CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language",
 		"authors": ["Aditya Sanghi", "Rao Fu", "Vivian Liu", "Karl D. D. Willis", "Hooman Shayani", "Amir Hosein Khasahmadi", "Srinath Sridhar", "Daniel Ritchie"],
