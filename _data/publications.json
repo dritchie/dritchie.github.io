@@ -16,6 +16,7 @@
 		"venue": "CVPR 2023",
 		"date": "2023-06-18",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://ivl.cs.brown.edu/#/projects/clip-sculptor"},
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2211.01427"}
 		]
 	},
