@@ -6,6 +6,7 @@
 		"venue": "Eurographics 2023 STAR",
 		"date": "2023-05-08",
 		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2304.10320"},
 			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1g_VpZ80MzkcqZBqj81kBc2VXYKiyzhbO/view?usp=share_link"}
 		]
 	},
