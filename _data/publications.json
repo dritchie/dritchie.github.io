@@ -1,5 +1,15 @@
 [
 	{
+		"id": "shapecoder",
+		"title": "ShapeCoder: Discovering Abstractions for Visual Programs from Unstructured Primitives",
+		"authors": ["R. Kenny Jones", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
+		"venue": "SIGGRAPH 2023",
+		"date": "2023-08-10",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2305.05661"}
+		]
+	},
+	{
 		"id": "neurosymbolicstar",
 		"title": "Neurosymbolic Models for Computer Graphics",
 		"authors": ["Daniel Ritchie", "Paul Guerrero", "R. Kenny Jones", "Niloy Mitra", "Adriana Schulz", "Karl D. D. Willis", "Jiajun Wu"],
