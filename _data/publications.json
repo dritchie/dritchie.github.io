@@ -49,7 +49,7 @@
 		"date": "2022-12-09",
 		"links":  [
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2207.09446"},
-			{"type": "link", "name": "project page", "target": "https://ivl.brown.edu/projects/shapecrafter"}
+			{"type": "link", "name": "project page", "target": "https://ivl.cs.brown.edu/projects/shapecrafter"}
 		]
 	},
 	{
