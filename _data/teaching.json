@@ -1,5 +1,13 @@
 [
 	{
+		"startdate": "2023-09-06",
+		"term": "Fall 2023",
+		"number": "CSCI 1230",
+		"name": "Introduction to Computer Graphics",
+		"link": "https://cs1230.graphics"
+	},
+
+	{
 		"startdate": "2023-01-25",
 		"term": "Spring 2023",
 		"number": "CSCI 2240",
@@ -12,7 +20,7 @@
 		"term": "Fall 2022",
 		"number": "CSCI 1230",
 		"name": "Introduction to Computer Graphics",
-		"link": "https://cs1230.graphics"
+		"link": "https://cs1230.graphics/website-fall-22/"
 	},
 
 	{
