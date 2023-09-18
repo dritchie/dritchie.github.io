@@ -1,5 +1,32 @@
 [
 	{
+		"id": "defspaces",
+		"title": "Explorable Mesh Deformation Subspaces from Unstructured 3D Generative Models",
+		"authors": ["Arman Maesumi", "Paul Guerrero", "Vladimir Kim", "Matthew Fisher", "Siddhartha Chaudhuri", "Noam Aigerman", "Daniel Ritchie"],
+		"venue": "SIGGRAPH Asia 2023",
+		"date": "2023-12-12",
+		"links":  [
+		]
+	},
+	{
+		"id": "motiongraphics",
+		"title": "Editing Motion Graphics Videos via Motion Vectorization & Transformation",
+		"authors": ["Sharon Zhang", "Jiaju Ma", "Daniel Ritchie", "Jiajun Wu", "Maneesh Agrawala"],
+		"venue": "SIGGRAPH Asia 2023",
+		"date": "2023-12-12",
+		"links":  [
+		]
+	},
+	{
+		"id": "siri",
+		"title": "Improving Unsupervised Visual Program Inference with Code Rewriting Families",
+		"authors": ["Aditya Ganeshan", "R. Kenny Jones", "Daniel Ritchie"],
+		"venue": "ICCV 2023",
+		"date": "2023-10-06",
+		"links":  [
+		]
+	},
+	{
 		"id": "shapecoder",
 		"title": "ShapeCoder: Discovering Abstractions for Visual Programs from Unstructured Primitives",
 		"authors": ["R. Kenny Jones", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
