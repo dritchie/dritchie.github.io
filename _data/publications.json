@@ -15,6 +15,7 @@
 		"venue": "SIGGRAPH Asia 2023",
 		"date": "2023-12-12",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://sxzhang25.github.io/publications/motion-vectorization.html"}
 		]
 	},
 	{
@@ -25,6 +26,8 @@
 		"date": "2023-10-06",
 		"award": "Oral Presentation",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://bardofcodes.github.io/coref/"},
+			{"type": "link", "name": "paper", "target": "https://github.com/BardOfCodes/coref/blob/gh_pages/static/pdfs/paper.pdf"}
 		]
 	},
 	{
