@@ -15,7 +15,8 @@
 		"venue": "SIGGRAPH Asia 2023",
 		"date": "2023-12-12",
 		"links":  [
-			{"type": "link", "name": "project page", "target": "https://sxzhang25.github.io/publications/motion-vectorization.html"}
+			{"type": "link", "name": "project page", "target": "https://sxzhang25.github.io/publications/motion-vectorization.html"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2309.14642"}
 		]
 	},
 	{
