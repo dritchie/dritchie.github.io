@@ -28,7 +28,8 @@
 		"award": "Oral Presentation",
 		"links":  [
 			{"type": "link", "name": "project page", "target": "https://bardofcodes.github.io/coref/"},
-			{"type": "link", "name": "paper", "target": "https://github.com/BardOfCodes/coref/blob/gh_pages/static/pdfs/paper.pdf"}
+			{"type": "link", "name": "paper", "target": "https://github.com/BardOfCodes/coref/blob/gh_pages/static/pdfs/paper.pdf"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2309.14972"}
 		]
 	},
 	{
