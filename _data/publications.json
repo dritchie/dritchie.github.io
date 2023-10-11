@@ -6,6 +6,8 @@
 		"venue": "SIGGRAPH Asia 2023",
 		"date": "2023-12-12",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://armanmaesumi.github.io/explorable_subspaces/"},
+			{"type": "link", "name": "paper", "target": "https://armanmaesumi.github.io/papers/2023_explorable_subspaces/explorable_subspaces.pdf"}
 		]
 	},
 	{
