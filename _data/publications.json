@@ -1,5 +1,14 @@
 [
 	{
+		"id": "gen3dr",
+		"title": "Generalizing Single-View 3D Shape Retrieval to Occlusions and Unseen Objects",
+		"authors": ["Qirui Wu", "Daniel Ritchie", "Manolis Savva", "Angel X. Chang"],
+		"venue": "3DV 2024",
+		"date": "2024-03-18",
+		"links":  [
+		]
+	},
+	{
 		"id": "defspaces",
 		"title": "Explorable Mesh Deformation Subspaces from Unstructured 3D Generative Models",
 		"authors": ["Arman Maesumi", "Paul Guerrero", "Vladimir Kim", "Matthew Fisher", "Siddhartha Chaudhuri", "Noam Aigerman", "Daniel Ritchie"],
