@@ -6,6 +6,7 @@
 		"venue": "3DV 2024",
 		"date": "2024-03-18",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://3dlg-hcvc.github.io/shape-wizard/"}
 		]
 	},
 	{
