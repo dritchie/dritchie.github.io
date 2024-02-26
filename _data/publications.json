@@ -1,5 +1,27 @@
 [
 	{
+		"id": "charactermixer",
+		"title": "CharacterMixer: Rig-Aware Interpolation of 3D Characters",
+		"authors": ["Xiao Zhan", "Rao Fu", "Daniel Ritchie"],
+		"venue": "Eurographics 2024",
+		"date": "2024-04-22",
+		"links":  [
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1OR3X-PuVm1cv2Bgj7SKu582rbHyqYLFU/view?usp=sharing"},
+			{"type": "link", "name": "project page", "target": "https://seanxzhan.github.io/projects/CharacterMixer.html"}
+		]
+	},
+	{
+		"id": "impossibles",
+		"title": "PossibleImpossibles: Exploratory Procedural Design of Impossible Structures",
+		"authors": ["Yuanbo Li", "Tianyi Ma", "Zaineb Aljumayaat", "Daniel Ritchie"],
+		"venue": "Eurographics 2024",
+		"date": "2024-04-22",
+		"links":  [
+			{"type": "link", "name": "paper", "target": "https://liyb2002.github.io/data/PossibleImpossible_EG24.pdf"},
+			{"type": "link", "name": "code", "target": "https://github.com/Liyb2002/Impossible_structures/tree/v2"}
+		]
+	},
+	{
 		"id": "gen3dr",
 		"title": "Generalizing Single-View 3D Shape Retrieval to Occlusions and Unseen Objects",
 		"authors": ["Qirui Wu", "Daniel Ritchie", "Manolis Savva", "Angel X. Chang"],
