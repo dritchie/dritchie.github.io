@@ -6,8 +6,9 @@
 		"venue": "Eurographics 2024",
 		"date": "2024-04-22",
 		"links":  [
-			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1OR3X-PuVm1cv2Bgj7SKu582rbHyqYLFU/view?usp=sharing"},
-			{"type": "link", "name": "project page", "target": "https://seanxzhan.github.io/projects/CharacterMixer.html"}
+			{"type": "link", "name": "project page", "target": "https://seanxzhan.github.io/projects/CharacterMixer.html"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2402.15580"},
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1OR3X-PuVm1cv2Bgj7SKu582rbHyqYLFU/view?usp=sharing"}
 		]
 	},
 	{
