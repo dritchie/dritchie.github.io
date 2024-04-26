@@ -1,5 +1,17 @@
 [
 	{
+		"id": "onenoise",
+		"title": "One Noise to Rule Them All: Learning a Unified Model of Spatially-Varying Noise Patterns",
+		"authors": ["Arman Maesumi", "Dylan Hu", "Krishi Saripalli", "Vladimir Kim", "Matthew Fisher", "Sören Pirk", "Daniel Ritchie"],
+		"venue": "SIGGRAPH 2024",
+		"date": "2024-07-28",
+		"links":  [
+			{"type": "link", "name": "project page", "target": "https://armanmaesumi.github.io/onenoise/"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2404.16292"},
+			{"type": "link", "name": "paper", "target": "https://armanmaesumi.github.io/papers/2024_onenoise/sigg24_onenoise.pdf"}
+		]
+	},
+	{
 		"id": "charactermixer",
 		"title": "CharacterMixer: Rig-Aware Interpolation of 3D Characters",
 		"authors": ["Xiao Zhan", "Rao Fu", "Daniel Ritchie"],
