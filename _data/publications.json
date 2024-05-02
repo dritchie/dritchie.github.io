@@ -1,5 +1,15 @@
 [
 	{
+		"id": "probplad",
+		"title": "Learning to Infer Generative Template Programs for Visual Concepts",
+		"authors": ["R. Kenny Jones", "Siddhartha Chaudhuri", "Daniel Ritchie"],
+		"venue": "ICML 2024",
+		"date": "2024-07-21",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2403.15476v1"}
+		]
+	},
+	{
 		"id": "onenoise",
 		"title": "One Noise to Rule Them All: Learning a Unified Model of Spatially-Varying Noise Patterns",
 		"authors": ["Arman Maesumi", "Dylan Hu", "Krishi Saripalli", "Vladimir Kim", "Matthew Fisher", "Sören Pirk", "Daniel Ritchie"],
