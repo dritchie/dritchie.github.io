@@ -56,6 +56,16 @@
 		]
 	},
 	{
+		"id": "llmscenegen",
+		"title": "Open-Universe Indoor Scene Generation using LLM Program Synthesis and Uncurated Object Databases",
+		"authors": ["Rio Aguina-Kang", "Maxim Gumin", "Do Heon Han", "Stewart Morris", "Seung Jean Yoo", "Aditya Ganeshan", "R. Kenny Jones", "Qiuhong Anna Wei", "Kailiang Fu", "Daniel Ritchie"],
+		"venue": "arXiv preprint",
+		"date": "2024-02-05",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2403.09675"}
+		]
+	},
+	{
 		"id": "defspaces",
 		"title": "Explorable Mesh Deformation Subspaces from Unstructured 3D Generative Models",
 		"authors": ["Arman Maesumi", "Paul Guerrero", "Vladimir Kim", "Matthew Fisher", "Siddhartha Chaudhuri", "Noam Aigerman", "Daniel Ritchie"],
