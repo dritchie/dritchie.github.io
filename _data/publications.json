@@ -1,5 +1,15 @@
 [
 	{
+		"id": "r3ds",
+		"title": "R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding",
+		"authors": ["Qirui Wu", "Sonia Raychaudhuri", "Daniel Ritchie", "Manolis Savva", "Angel X. Chang"],
+		"venue": "EECV 2024",
+		"date": "2024-09-29",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2403.12301"}
+		]
+	},
+	{
 		"id": "probplad",
 		"title": "Learning to Infer Generative Template Programs for Visual Concepts",
 		"authors": ["R. Kenny Jones", "Siddhartha Chaudhuri", "Daniel Ritchie"],
