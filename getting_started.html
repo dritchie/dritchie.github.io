@@ -16,8 +16,8 @@ layout: post
     <li>Ask me to add you to the lab Slack team</li>
     <!-- <li>Ask me to add you to the lab mailing list</li> -->
     <li>Add the <a href='https://calendar.google.com/calendar/u/1?cid=YnJvd24uZWR1X29pb3FzazhiZmFwNXVhMWlkanBobGUyMzUwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'>Brown Visual Computing calendar</a> to your Google Calendar</li>
-    <li>Come to our lab meetings (Mon 1-2pm)</li>
-    <li>Ask tstaff to add you to the <code>cs-drlab</code> group</li>
+    <li>Come to our lab meetings (Mon 12pm)</li>
+    <!-- <li>Ask tstaff to add you to the <code>cs-drlab</code> group</li> -->
     <li>(If needed for your project) Ask me or a PhD student to get you an account on one of our lab machines</li>
 </ul>
 
@@ -26,7 +26,8 @@ layout: post
 <p>
     The Brown Visual Computing Group maintains a Slack team that we use (in lieu of email) for most internal communication about research, meetings, events, etc.
     <!-- We also have a mailing list, <a href='mailto:visual_computing@lists.cs.brown.edu'>visual_computing@lists.cs.brown.edu</a>, which we primarily to make announcements about talks and other events. Ask me to add you to these, so you can stay in the loop. -->
-    We have group meetings every other week, currently on Mondays at 1pm, in Lubrano (CIT 477). On off weeks, we try to have visiting speakers come in (as opposed to student speakers). Details about the speaker for the week are announced on the mailing list.
+    During the academic year, we have group meetings every week, currently on Mondays at noon, in CIT 101. These meetings feature presentations from lab members (primarily PhD students) about their research.
+    Some Fridays at noon, we also have a seminar series featuring visiting speakers (also in CIT 101).
 </p>
 
 <h3>The Department's Computing Infrastructure</h3>
@@ -40,7 +41,8 @@ layout: post
         </li>
 
         <li>
-            <strong>Using the grid:</strong> The department maintains a high-performance compute cluster that contains, among other things, quite a few GPUs. Instructions for using this are available on <a target='_blank' href='https://cs.brown.edu/about/system/services/hpc/'>the CS department website</a>, and I highly recommend you read them. In addition to what you'll read about there, here are some other nice tricks to be aware of:
+            <strong>Using the grid:</strong> The department maintains a high-performance compute cluster that contains, among other things, quite a few GPUs. Instructions for using this are available on <a target='_blank' href='https://cs.brown.edu/about/system/services/hpc/'>the CS department website</a>, and I highly recommend you read them.
+            <!-- In addition to what you'll read about there, here are some other nice tricks to be aware of:
             <ul>
                 <li>
                     <code>qstat -u \*</code> will show you all the jobs currently running on the grid, which lets you see what resources are in use and which are available. You can also check which GPU nodes are currently in use: <code>qstat -u \* | grep gpu</code>.
@@ -51,7 +53,7 @@ layout: post
                 <li>
                     Take a look at <a target='_blank' href='misc/grid_example.sh'>this file</a> for an example grid script that can be used with <code>qsub</code> (modified from a script written by Yifan Liu).
                 </li>
-            </ul>
+            </ul> -->
         </li
         >
         <li>
@@ -67,22 +69,22 @@ layout: post
 
     <ul>
         <li>
-            syenite (2017): 6-core i7, 96GB RAM, GTX 1080 Ti, RTX Titan. Dual boots Windows.
+            syenite (2017): 6-core Intel i7, 96GB RAM, GTX 1080 Ti, RTX Titan. Dual boots Windows.
         </li>
         <li>
-            alabaster (2018): 6-core i7, 32GB RAM, Titan Xp, GTX 1080 Ti.
+            alabaster (2018): 6-core Intel i7, 32GB RAM, Titan Xp, GTX 1080 Ti.
         </li>
         <!-- <li>
             grindelwald (2018): 6-core i7, 32GB RAM, GTX 1080 Ti.
         </li> -->
         <li>
-            jkajiya (2018): 6-core i7, 32GB RAM, GTX 1080 Ti, RTX 2080 Ti. Dual boots Windows.
+            jkajiya (2018): 6-core Intel i7, 32GB RAM, GTX 1080 Ti, RTX 2080 Ti. Dual boots Windows.
         </li>
         <li>
-            sophon (2018): 6-core i7, 32GB RAM, GTX 1080 Ti. Dual boots Windows.
+            sophon (2018): 6-core Intel i7, 32GB RAM, GTX 1080 Ti. Dual boots Windows.
         </li>
         <li>
-            taranoke (2019): 6-core i7, 32GB RAM, RTX 2080 Ti (x2). Dual boots Windows.
+            taranoke (2019): 6-core Intel i7, 32GB RAM, RTX 2080 Ti (x2). Dual boots Windows.
         </li>
         <!-- <li>
             aerlevsedi (2019): 8-core i9, 32GB RAM, RTX 2080 Ti. 
@@ -91,7 +93,10 @@ layout: post
             ryze (2019): 8-core i9, 32GB RAM, RTX 2080 Ti.
         </li> -->
         <li>
-            endymion (2021): 8-core i9, 64GB RAM, RTX 3090. Dual boots Windows.
+            endymion (2021): 8-core Intel i9, 64GB RAM, RTX 3090. Dual boots Windows.
+        </li>
+        <li>
+            kalachakra (2024): 24-core Intel i9, 96GB RAM, RTX 4090 (x2).
         </li>
     </ul>
 
