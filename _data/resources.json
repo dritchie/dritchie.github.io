@@ -1,5 +1,10 @@
 [
 	{
+		"name": "Graphics PhD Mentoring Slack workspace",
+		"link": "https://graphicsphdmentoring.slack.com/",
+		"description": "An online discussion community for those who mentor graphics PhD students. Send me email if you'd like to join."
+	},
+	{
 		"name": "Deep Learning for 3D Geometry",
 		"link": "https://www.dropbox.com/scl/fi/ecvymypvpwn6dgiubduh0/slides.pptx?rlkey=k30ulxvqqu7zizvwpk5t3fyam&dl=0",
 		"description": "My slides for the course that <a target='_blank' href='https://zoemarschner.com/'>Zoë Marschner</a> and I taught at SGP '24"
