@@ -1,5 +1,15 @@
 [
 	{
+		"id": "parsel",
+		"title": "ParSEL: Parameterized Shape Editing with Language",
+		"authors": ["Aditya Ganeshan", "Ryan Y. Huang", "Xianghao Xu", "R. Kenny Jones", "Daniel Ritchie"],
+		"venue": "SIGGRAPH Asia 2024",
+		"date": "2024-12-03",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2405.20319"}
+		]
+	},
+	{
 		"id": "r3ds",
 		"title": "R3DS: Reality-linked 3D Scenes for Panoramic Scene Understanding",
 		"authors": ["Qirui Wu", "Sonia Raychaudhuri", "Daniel Ritchie", "Manolis Savva", "Angel X. Chang"],
