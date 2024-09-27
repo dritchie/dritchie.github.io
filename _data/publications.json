@@ -1,5 +1,15 @@
 [
 	{
+		"id": "vpiedits",
+		"title": "Learning to Edit Visual Programs with Self-Supervision",
+		"authors": ["R. Kenny Jones", "Renhao Zhang", "Aditya Ganeshan", "Daniel Ritchie"],
+		"venue": "NeurIPS 2024",
+		"date": "2024-12-09",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2406.02383"}
+		]
+	},
+	{
 		"id": "parsel",
 		"title": "ParSEL: Parameterized Shape Editing with Language",
 		"authors": ["Aditya Ganeshan", "Ryan Y. Huang", "Xianghao Xu", "R. Kenny Jones", "Daniel Ritchie"],
