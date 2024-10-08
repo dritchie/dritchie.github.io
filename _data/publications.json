@@ -26,6 +26,7 @@
 		"venue": "EECV 2024",
 		"date": "2024-09-29",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://3dlg-hcvc.github.io/r3ds/"},
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2403.12301"}
 		]
 	},
@@ -36,6 +37,7 @@
 		"venue": "ICML 2024",
 		"date": "2024-07-21",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://rkjones4.github.io/template.html"},
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2403.15476v1"}
 		]
 	},
