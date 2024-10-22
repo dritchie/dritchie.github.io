@@ -1,5 +1,15 @@
 [
 	{
+		"id": "cliptortionist",
+		"title": "CLIPtortionist: Zero-shot Text-driven Deformation for Manufactured 3D Shapes",
+		"authors": ["Xianghao Xu", "Srinath Sridhar", "Daniel Ritchie"],
+		"venue": "arXiv preprint",
+		"date": "2024-10-22",
+		"links":  [
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2410.15199"}
+		]
+	},
+	{
 		"id": "vpiedits",
 		"title": "Learning to Edit Visual Programs with Self-Supervision",
 		"authors": ["R. Kenny Jones", "Renhao Zhang", "Aditya Ganeshan", "Daniel Ritchie"],
