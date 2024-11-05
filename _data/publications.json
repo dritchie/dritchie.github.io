@@ -16,7 +16,9 @@
 		"venue": "NeurIPS 2024",
 		"date": "2024-12-09",
 		"links":  [
-			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2406.02383"}
+			{"type": "link", "name": "project page", "target": "https://rkjones4.github.io/vpi_edit.html"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2406.02383"},
+			{"type": "link", "name": "code", "target": "https://github.com/rkjones4/VPI-Edit"}
 		]
 	},
 	{
