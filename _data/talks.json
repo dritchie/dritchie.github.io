@@ -1,5 +1,10 @@
 [
 	{
+		"title": "Deep Learning for 3D Geometry",
+		"link": "https://www.youtube.com/watch?v=r6S0jQqyZDM&ab_channel=SymposiumonGeometryProcessing2024",
+		"venue": "SGP 2024 Summer School (with Zoë Marschner)"
+	},
+	{
 		"title": "Learning to Represent Shapes with Programs",
 		"link": "http://school.geometryprocessing.org/summerschool-2022/index.html#course3",
 		"venue": "SGP 2022 Summer School"
