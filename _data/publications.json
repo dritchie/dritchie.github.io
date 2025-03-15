@@ -1,5 +1,27 @@
 [
 	{
+		"id": "patternanalogies",
+		"title": "Pattern Analogies: Learning to Perform Programmatic Image Edits by Analogy",
+		"authors": ["Aditya Ganeshan", "Thibault Groueix", "Paul Guerrero", "Radomír Měch", "Matthew Fisher", "Daniel Ritchie"],
+		"venue": "CVPR 2025",
+		"date": "2025-06-10",
+		"links":  [
+			{"type": "link", "name": "project page", "target": "https://bardofcodes.github.io/patterns/"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2412.12463"}
+		]
+	},
+	{
+		"id": "gigahands",
+		"title": "GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities",
+		"authors": ["Rao Fu", "Dingxi Zhang", "Alex Jiang", "Wanjia Fu", "Austin Funk", "Daniel Ritchie", "Srinath Sridhar"],
+		"venue": "CVPR 2025",
+		"date": "2025-06-10",
+		"links":  [
+			{"type": "link", "name": "project page", "target": "https://ivl.cs.brown.edu/research/gigahands.html"},
+			{"type": "link", "name": "arXiv", "target": "https://www.arxiv.org/abs/2412.04244"}
+		]
+	},
+	{
 		"id": "cliptortionist",
 		"title": "CLIPtortionist: Zero-shot Text-driven Deformation for Manufactured 3D Shapes",
 		"authors": ["Xianghao Xu", "Srinath Sridhar", "Daniel Ritchie"],
