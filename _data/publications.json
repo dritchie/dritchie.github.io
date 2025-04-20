@@ -16,6 +16,7 @@
 		"authors": ["Rao Fu", "Dingxi Zhang", "Alex Jiang", "Wanjia Fu", "Austin Funk", "Daniel Ritchie", "Srinath Sridhar"],
 		"venue": "CVPR 2025",
 		"date": "2025-06-10",
+		"award": "Highlight",
 		"links":  [
 			{"type": "link", "name": "project page", "target": "https://ivl.cs.brown.edu/research/gigahands.html"},
 			{"type": "link", "name": "arXiv", "target": "https://www.arxiv.org/abs/2412.04244"}
