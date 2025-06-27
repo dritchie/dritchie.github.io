@@ -1,5 +1,16 @@
 [
 	{
+		"id": "diorama",
+		"title": "Diorama: Unleashing Zero-shot Single-view 3D Scene Modeling",
+		"authors": ["Qirui Wu", "Denys Iliash", "Daniel Ritchie", "Manolis Savva", "Angel X. Chang"],
+		"venue": "ICCV 2025",
+		"date": "2025-10-19",
+		"links":  [
+			{"type": "link", "name": "project page", "target": "https://3dlg-hcvc.github.io/diorama/"},
+			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2411.19492"}
+		]
+	},
+	{
 		"id": "patternanalogies",
 		"title": "Pattern Analogies: Learning to Perform Programmatic Image Edits by Analogy",
 		"authors": ["Aditya Ganeshan", "Thibault Groueix", "Paul Guerrero", "Radomír Měch", "Matthew Fisher", "Daniel Ritchie"],
@@ -51,6 +62,7 @@
 		"venue": "SIGGRAPH Asia 2024",
 		"date": "2024-12-03",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://bardofcodes.github.io/parSEL/"},
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2405.20319"}
 		]
 	},
