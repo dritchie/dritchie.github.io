@@ -14,6 +14,8 @@ My goal with this post is to help demystify the process of writing a good techni
 
 About the title of the post: writing a paper in three phases might sound like more work than doing it in one. But I find that following this process actually saves me time. When I sit down and try to write a submission-worthy draft in one go (a process that got me through most of my schooling up until grad school), I find that I waste a lot of time staring at a blank screen and thinking really hard about what to write. Besides, if you’re a computer scientist like I am, a multi-stage approach shouldn’t be too hard to swallow: we all know that every problem can be solved by adding more layers of abstraction ;)
 
+This post is about how to craft the *content* of a technical paper; for advice on the *style* of your writing, I highly recommend reading [this style guide](https://capra.cs.cornell.edu/styleguide/) written by Adrian Sampson and other members of his lab at Cornell.
+
 Before I begin, a caveat: what follows is one person’s opinion. This process works well for me, but your mileage may vary.
 
 ### Phase I
