@@ -5,6 +5,7 @@
 		"authors": ["Qirui Wu", "Denys Iliash", "Daniel Ritchie", "Manolis Savva", "Angel X. Chang"],
 		"venue": "ICCV 2025",
 		"date": "2025-10-19",
+		"award": "Highlight",
 		"links":  [
 			{"type": "link", "name": "project page", "target": "https://3dlg-hcvc.github.io/diorama/"},
 			{"type": "link", "name": "arXiv", "target": "https://arxiv.org/abs/2411.19492"}
