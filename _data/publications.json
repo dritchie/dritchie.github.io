@@ -1,5 +1,47 @@
 [
 	{
+		"id": "poissonnet",
+		"title": "PoissonNet: A Local-Global Approach for Learning on Surfaces",
+		"authors": ["Arman Maesumi", "Tanish Makadia", "Thibault Groueix", "Vladimir Kim", "Daniel Ritchie", "Noam Aigerman"],
+		"venue": "SIGGRAPH Asia 2025",
+		"date": "2025-12-15",
+		"links":  [
+			{"type": "link", "name": "project page", "target": "https://armanmaesumi.github.io/poissonnet/"},
+			{"type": "link", "name": "paper", "target": "https://armanmaesumi.github.io/papers/2025_poissonnet/sigg25_poissonnet.pdf"},
+			{"type": "link", "name": "code", "target": "https://github.com/ArmanMaesumi/poissonnet"}
+		]
+	},
+	{
+		"id": "migumi",
+		"title": "MiGumi: Making Tightly Coupled Integral Joints Millable",
+		"authors": ["Aditya Ganeshan", "Kurt Fleischer", "Wenzel Jakob", "Ariel Shamir", "Daniel Ritchie", "Takeo Igarashi", "Maria Larsson"],
+		"venue": "SIGGRAPH Asia 2025",
+		"date": "2025-12-15",
+		"links":  [
+		]
+	},
+	{
+		"id": "partcomposer",
+		"title": "PartComposer: Learning and Composing Part-Level Concepts from Single-Image Examples",
+		"authors": ["Junyu Liu", "R. Kenny Jones", "Daniel Ritchie"],
+		"venue": "SIGGRAPH Asia 2025",
+		"date": "2025-12-15",
+		"links":  [
+			{"type": "link", "name": "project page", "target": "https://junyu-liu-nate.github.io/partcomposer.github.io/"},
+			{"type": "link", "name": "arxiv", "target": "https://arxiv.org/abs/2506.03004"},
+			{"type": "link", "name": "code", "target": "https://github.com/Junyu-Liu-Nate/PartComposer"}
+		]
+	},
+	{
+		"id": "psdl",
+		"title": "Procedural Scene Programs for Open-Universe Scene Generation: LLM-Free Error Correction via Program Search",
+		"authors": ["Maxim Gumin", "Do Heon Han", "Seung Jean Yoo", "Aditya Ganeshan", "R. Kenny Jones", "Kailiang Fu", "Rio Aguina-Kang", "Stewart Morris", "Daniel Ritchie"],
+		"venue": "SIGGRAPH Asia 2025",
+		"date": "2025-12-15",
+		"links":  [
+		]
+	},
+	{
 		"id": "diorama",
 		"title": "Diorama: Unleashing Zero-shot Single-view 3D Scene Modeling",
 		"authors": ["Qirui Wu", "Denys Iliash", "Daniel Ritchie", "Manolis Savva", "Angel X. Chang"],
