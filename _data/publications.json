@@ -18,6 +18,10 @@
 		"venue": "SIGGRAPH Asia 2025",
 		"date": "2025-12-15",
 		"links":  [
+			{"type": "link", "name": "project page", "target": "https://bardofcodes.github.io/migumi/"},
+			{"type": "link", "name": "paper", "target": "https://bardofcodes.github.io/papers/migumi/paper.pdf"},
+			{"type": "link", "name": "code", "target": "https://github.com/bardofcodes/migumi/"},
+			{"type": "link", "name": "dataset", "target": "https://huggingface.co/datasets/bardofcodes/migumi-dataset"}
 		]
 	},
 	{
