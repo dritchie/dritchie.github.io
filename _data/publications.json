@@ -43,6 +43,7 @@
 		"venue": "SIGGRAPH Asia 2025",
 		"date": "2025-12-15",
 		"links":  [
+			{"type": "link", "name": "arxiv", "target": "https://arxiv.org/abs/2504.05482"}
 		]
 	},
 	{
