@@ -1,5 +1,12 @@
 [
 	{
+		"startdate": "2026-01-21",
+		"term": "Spring 2026",
+		"number": "CSCI 2240",
+		"name": "Advanced Computer Graphics",
+		"link": "https://cs2240.graphics/"
+	},
+	{
 		"startdate": "2025-09-04",
 		"term": "Fall 2025",
 		"number": "CSCI 1230",
@@ -12,7 +19,7 @@
 		"term": "Spring 2025",
 		"number": "CSCI 2240",
 		"name": "Advanced Computer Graphics",
-		"link": "https://cs2240.graphics/"
+		"link": "https://cs2240.graphics/archive/2025"
 	},
 
 	{
