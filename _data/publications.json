@@ -1,5 +1,18 @@
 [
 	{
+		"id": "superfit",
+		"title": "Residual Primitive Fitting of 3D Shapes with SuperFrusta",
+		"authors": ["Aditya Ganeshan", "Mateus Gadelha", "Thibault Groueix", "Zhiqin Chen", "Siddhartha Chaudhuri", "Vladimir Kim", "Yifan Wang", "Daniel Ritchie"],
+		"venue": "CVPR 2026",
+		"date": "2026-06-03",
+		"links":  [
+			{"type": "link", "name": "website", "target": "https://bardofcodes.github.io/superfit/"},
+			{"type": "link", "name": "paper", "target": "https://bardofcodes.github.io/papers/superfit/paper.pdf"},
+			{"type": "link", "name": "arxiv", "target": "https://arxiv.org/abs/2512.09201"},
+			{"type": "link", "name": "code", "target": "https://github.com/bardofcodes/superfit/"}
+		]
+	},
+	{
 		"id": "cadrawer",
 		"title": "CADrawer: Autoregressive CAD Generation from 3D Sketches",
 		"authors": ["Yuanbo Li", "Gilda Manfredi", "Henro Kriel", "Chengye Hao", "Xianghao Xu", "Adrien Bousseau", "Daniel Ritchie"],
