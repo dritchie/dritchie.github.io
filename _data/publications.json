@@ -5,6 +5,7 @@
 		"authors": ["Aditya Ganeshan", "Mateus Gadelha", "Thibault Groueix", "Zhiqin Chen", "Siddhartha Chaudhuri", "Vladimir Kim", "Yifan Wang", "Daniel Ritchie"],
 		"venue": "CVPR 2026",
 		"date": "2026-06-03",
+		"award": "Oral Presentation",
 		"links":  [
 			{"type": "link", "name": "website", "target": "https://bardofcodes.github.io/superfit/"},
 			{"type": "link", "name": "paper", "target": "https://bardofcodes.github.io/papers/superfit/paper.pdf"},
