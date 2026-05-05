@@ -1,10 +1,30 @@
 [
 	{
+		"id": "pllm",
+		"title": "PLLM: Pseudo-Labeling Large Language Models for CAD Program Synthesis",
+		"authors": ["Yuanbo Li", "Dule Shu", "Yan-Ying Chen", "Matt Klenk", "Daniel Ritchie"],
+		"venue": "CVPR 2026 Workshop on Synthetic Data for Computer Vision",
+		"date": "2026-06-03",
+		"links":  [
+			{"type": "link", "name": "paper", "target": "https://liyb2002.github.io/yuanboli_files/PLLM.pdf"}
+		]
+	},
+	{
+		"id": "sceneplad",
+		"title": "Learning to Place Objects with Programs and Iterative Self Training",
+		"authors": ["Adrian Chang", "Kai Wang", "Yuanbo Li", "Manolis Savva", "Angel X. Chang", "Daniel Ritchie"],
+		"venue": "CVPR 2026 Workshop on AI for Content Creation",
+		"date": "2026-06-03",
+		"links":  [
+			{"type": "link", "name": "arxiv", "target": "https://arxiv.org/abs/2503.04496"}
+		]
+	},
+	{
 		"id": "superfit",
 		"title": "Residual Primitive Fitting of 3D Shapes with SuperFrusta",
 		"authors": ["Aditya Ganeshan", "Mateus Gadelha", "Thibault Groueix", "Zhiqin Chen", "Siddhartha Chaudhuri", "Vladimir Kim", "Yifan Wang", "Daniel Ritchie"],
 		"venue": "CVPR 2026",
-		"date": "2026-06-03",
+		"date": "2026-06-04",
 		"award": "Oral Presentation",
 		"links":  [
 			{"type": "link", "name": "website", "target": "https://bardofcodes.github.io/superfit/"},
