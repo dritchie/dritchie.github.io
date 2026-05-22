@@ -1,5 +1,28 @@
 [
 	{
+		"id": "maternfm",
+		"title": "Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes",
+		"authors": ["Tianshu Kuai", "Arman Maesumi", "Daniel Ritchie", "Noam Aigerman"],
+		"venue": "SIGGRAPH 2026",
+		"date": "2026-07-20",
+		"links":  [
+			{"type": "link", "name": "website", "target": "https://matern-fm.github.io/"},
+			{"type": "link", "name": "paper", "target": "https://matern-fm.github.io/static/pdfs/Matern-FM.pdf"},
+			{"type": "link", "name": "arxiv", "target": "https://arxiv.org/abs/2605.19305"},
+			{"type": "link", "name": "code", "target": "https://github.com/kts707/matern-fm"}
+		]
+	},
+	{
+		"id": "gradnuld",
+		"title": "Gradient-based Approximation of Nonuniform Low-Disrepancy Samples",
+		"authors": ["Xiangyu Li", "Ege Ciklabakkal", "Daniel Ritchie", "Toshiya Hachisuka"],
+		"venue": "SIGGRAPH 2026",
+		"date": "2026-07-19",
+		"links":  [
+			{"type": "link", "name": "paper", "target": "https://cs.uwaterloo.ca/~thachisu/gradnuld.pdf"}
+		]
+	},
+	{
 		"id": "pllm",
 		"title": "PLLM: Pseudo-Labeling Large Language Models for CAD Program Synthesis",
 		"authors": ["Yuanbo Li", "Dule Shu", "Yan-Ying Chen", "Matt Klenk", "Daniel Ritchie"],
