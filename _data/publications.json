@@ -1,5 +1,15 @@
 [
 	{
+		"id": "shapelib",
+		"title": "ShapeLib: Designing a library of programmatic 3D shape abstractions with Large Language Models",
+		"authors": ["R. Kenny Jones", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
+		"venue": "ACM Transactions on Graphics 2026",
+		"date": "2026-08-22",
+		"links":  [
+			{"type": "link", "name": "paper", "target": "https://dl.acm.org/doi/10.1145/3840293"}
+		]
+	},
+	{
 		"id": "maternfm",
 		"title": "Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes",
 		"authors": ["Tianshu Kuai", "Arman Maesumi", "Daniel Ritchie", "Noam Aigerman"],
