@@ -1,5 +1,15 @@
 [
 	{
+		"id": "implicitdrag",
+		"title": "ImplicitDrag: Drag-Based Editing of Differentiable Implicits",
+		"authors": ["Henro Kriel", "Marzia Riso", "Aamen Muharram", "Siddhartha Chaudhuri", "Daniel Ritchie", "Adrien Bousseau"],
+		"venue": "Pacific Graphics 2026",
+		"date": "2026-10-06",
+		"links":  [
+			{"type": "link", "name": "paper", "target": "https://drive.google.com/file/d/1D0Zju6c1cfViyn7ceYaWDt1Mghfnf5BP/view?usp=drive_link"}
+		]
+	},
+	{
 		"id": "shapelib",
 		"title": "ShapeLib: Designing a library of programmatic 3D shape abstractions with Large Language Models",
 		"authors": ["R. Kenny Jones", "Paul Guerrero", "Niloy Mitra", "Daniel Ritchie"],
